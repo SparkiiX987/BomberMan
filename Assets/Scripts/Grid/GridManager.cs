@@ -14,7 +14,21 @@ public class GridManager : MonoBehaviour
         {
             _case.x = x;
             _case.y = y;
-            if (x == 9)
+
+            if (_case.y >= 1 && _case.y <= 4)
+            {
+                _case.type = zoneType.Blue;
+            }
+            else if(_case.y >= 14 && _case.y <= 16)
+            {
+                _case.type = zoneType.Red;
+            }
+            else
+            {
+                _case.type = zoneType.Neutral;
+            }
+
+            if (x == 16)
             {
                 x = 1;
                 y++;

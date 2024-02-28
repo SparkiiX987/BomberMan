@@ -12,8 +12,7 @@ public class Case : MonoBehaviour
     public Case up, down, left, right;
     public List<Case> neighbours = new List<Case>();
 
-    [SerializeField] Material wall;
-    [SerializeField] Material flore;
+    [SerializeField] GameObject wall;
 
 
     //for PathFinding
@@ -31,7 +30,8 @@ public class Case : MonoBehaviour
     {
         if (!walkable)
         {
-            gameObject.GetComponent<Renderer>().material = wall;
+            GameObject newWall = GameObject.Instantiate(wall);
+            newWall.transform.position = new Vector3(transform.position.x, transform.position.y, -5);
         }
         RaycastHit2D hit;
         for (int i = -1; i < 2; i += 2)
