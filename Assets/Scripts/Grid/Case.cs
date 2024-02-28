@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Net.NetworkInformation;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -12,15 +13,15 @@ public class Case : MonoBehaviour
     public Case up, down, left, right;
     public List<Case> neighbours = new List<Case>();
 
-    [SerializeField] GameObject wall;
+    [SerializeField]private GameObject wall;
 
 
     //for PathFinding
-    Case parent;
+    public Case parent;
 
-    int gCost;
-    int hCost;
-    int fCost 
+    public int gCost;
+    public int hCost;
+    public int fCost 
     {  
         get { return gCost + hCost; } 
     }
@@ -32,26 +33,6 @@ public class Case : MonoBehaviour
         {
             GameObject newWall = GameObject.Instantiate(wall);
             newWall.transform.position = new Vector3(transform.position.x, transform.position.y, -5);
-        }
-        RaycastHit2D hit;
-        for (int i = -1; i < 2; i += 2)
-        {
-            hit = Physics2D.Raycast(transform.position, new Vector2(0, i), 11f);
-            if (hit && hit.collider.gameObject.GetComponent<Case>())
-            {
-                if (i == -1)
-                    down = hit.collider.gameObject.GetComponent<Case>();
-                else
-                    up = hit.collider.gameObject.GetComponent<Case>();
-            }
-            hit = Physics2D.Raycast(transform.position, new Vector2(i, 0), 11f);
-            if (hit && hit.collider.gameObject.GetComponent<Case>())
-            {
-                if (i == -1)
-                    left = hit.collider.gameObject.GetComponent<Case>();
-                else
-                    right = hit.collider.gameObject.GetComponent<Case>();
-            }
         }
     }
 

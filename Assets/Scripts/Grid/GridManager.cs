@@ -35,5 +35,30 @@ public class GridManager : MonoBehaviour
             }
             else x++;
         }
+
+        foreach(Case _case in cases)
+        {
+            int i = cases.IndexOf(_case);
+            if(i + 1 < cases.Count && cases[i + 1] != null && _case.x != 16)
+            {
+                _case.right = cases[i + 1];
+                _case.neighbours.Add(_case.right);
+            }
+            if (i - 1 > 0 && cases[i - 1] != null && _case.x != 1)
+            {
+                _case.left = cases[i - 1];
+                _case.neighbours.Add(_case.left);
+            }
+            if (i + 16 < cases.Count && cases[i + 16] != null)
+            {
+                _case.up = cases[i + 16];
+                _case.neighbours.Add(_case.up);
+            }
+            if (i - 16 > 0 && cases[i - 16] != null)
+            {
+                _case.down = cases[i - 16];
+                _case.neighbours.Add(_case.down);
+            }
+        }
     }
 }
