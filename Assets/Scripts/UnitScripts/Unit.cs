@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Unit : MonoBehaviour
@@ -7,11 +8,12 @@ public class Unit : MonoBehaviour
     private string unitName;
     private int hp;
     private int atk;
-    private float ms = 1;
+    private float ms = 15;
     private float ats;
     private int range;
     private int ultCharges;
     private bool canMove = true;
+    private bool isMoving;
 
     public Case currentCase;
     public Case targetCase;
@@ -23,16 +25,30 @@ public class Unit : MonoBehaviour
 
     private void Update()
     {
-        if (canAttack())
+        if (canAttack() && !isMoving)
         {
             print("attack");
         }
         else if (canMove)
         {
-            Move();
-            if(Vector3.Distance(targetCase.transform.position, currentCase.transform.position) > 10f)
+            canMove = false;
+            isMoving = true;
+            currentCase = targetCase;
+            targetCase = PathFinding(currentCase, caseThatContainTargetEnnemy);
+            if (targetCase == caseThatContainTargetEnnemy)
             {
+                isMoving = false;
                 canMove = true;
+            }
+        }
+        if(isMoving)
+        {
+            MoveToCase(targetCase);
+            if (Vector3.Distance(transform.position, targetCase.transform.position) < 4.5f)
+            {
+                transform.position = new Vector3 (targetCase.transform.position.x, targetCase.transform.position.y, -5f);
+                canMove = true;
+                isMoving = false;
             }
         }
     }
@@ -42,23 +58,9 @@ public class Unit : MonoBehaviour
         return caseThatContainTargetEnnemy.neighbours.Contains(currentCase);
     }
 
-    private void Move()
-    {
-        canMove = false;
-        foreach (Case _case in currentCase.neighbours)
-        {
-            if (_case == targetCase) 
-            {
-                MoveToCase(targetCase);
-            }
-        }
-
-        MoveToCase(PathFinding(currentCase, targetCase));
-    }
-
     private void MoveToCase(Case caseToMove)
     {
-        transform.position = Vector3.MoveTowards(transform.position, caseToMove.transform.position, ms * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, new Vector3 (caseToMove.transform.position.x, caseToMove.transform.position.y, -5f), ms * Time.deltaTime);
     }
 
 
@@ -143,12 +145,14 @@ public class Unit : MonoBehaviour
 
     private Case GetNextCaseToReach(Case end, Case start)
     {
-        Case currentCase = end;
-        while (currentCase.parent != start)
+        Case _currentCase = end;
+        while (_currentCase.parent != start)
         {
-            currentCase = currentCase.parent;
+            _currentCase = _currentCase.parent;
         }
-        return currentCase;
+        return _currentCase;
     }
+
+   
 
 }
