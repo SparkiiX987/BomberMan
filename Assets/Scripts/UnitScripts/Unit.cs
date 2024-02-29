@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Unit : MonoBehaviour
@@ -14,6 +13,7 @@ public class Unit : MonoBehaviour
     private int ultCharges;
     private bool canMove = true;
     private bool isMoving;
+    public UnitsManager unitsManager;
 
     public Case currentCase;
     public Case targetCase;
@@ -49,6 +49,8 @@ public class Unit : MonoBehaviour
                 transform.position = new Vector3 (targetCase.transform.position.x, targetCase.transform.position.y, -5f);
                 canMove = true;
                 isMoving = false;
+                if (FindEnnemyCase() != null)
+                    caseThatContainTargetEnnemy = FindEnnemyCase();
             }
         }
     }
@@ -153,6 +155,23 @@ public class Unit : MonoBehaviour
         return _currentCase;
     }
 
-   
+   private Case FindEnnemyCase()
+    {
+        List<Unit> ennemiesUnits = unitsManager.ennemiesUnits.units;
+        if (unitsManager.ennemiesUnits.units.Count == 0)
+            return null;
+        float minDist = Vector3.Distance(transform.position, ennemiesUnits[0].transform.position);
+        int index = 0;
+        for(int i = 1; i < ennemiesUnits.Count; i++)
+        {
+            if (Vector3.Distance(transform.position, ennemiesUnits[i].transform.position) < minDist)
+            {
+                index = i;
+                minDist = Vector3.Distance(transform.position, ennemiesUnits[i].transform.position);
+            }
+        }
+        return ennemiesUnits[index].currentCase;
+
+    }
 
 }

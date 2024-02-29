@@ -1,7 +1,5 @@
 using System.Collections.Generic;
-using System.Net.NetworkInformation;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class Case : MonoBehaviour
 {
