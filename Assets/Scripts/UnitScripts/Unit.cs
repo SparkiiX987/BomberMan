@@ -5,12 +5,24 @@ public class Unit : MonoBehaviour
 {
     private int id;
     private string unitName;
+
+    public Sprite unitIcon;
+    
     private int hp;
     private int atk;
     private float ms = 15;
     private float ats;
     private int range;
     private int ultCharges;
+
+
+    private int hpWithItem;
+    private int atkWithItem;
+    private float msWithItem = 15;
+    private float atsWithItem;
+    private int rangeWithItem;
+    private int ultChargesWithItem;
+
     private bool canMove = true;
     private bool isMoving;
     public UnitsManager unitsManager;
@@ -22,7 +34,38 @@ public class Unit : MonoBehaviour
     // GeneralItiem item1
     // UniqueItiem item2
 
-
+    /*
+        public void UpdateStats(GeneralItiem item1 = null, UniqueItiem item2 = null)
+        {
+            hpWithItem = hp;
+            atkWithItem = atk;
+            msWithItem = ms;
+            atsWithItem = ats;
+            rangeWithItem = hp;
+            ultChargesWithItem = hp;
+            if(item1 == null && item2 == null)
+            {
+                return;
+            }
+            
+            if(item1 != null)
+            {
+                hpWithItem += item1.hp;
+                atkWithItem += item1.atk;
+                msWithItem += item1.ms;
+                atsWithItem += item1.ats;
+            }
+            if(item1 != null)
+            {
+                hpWithItem += item2.hp;
+                atkWithItem += item2.atk;
+                msWithItem += item2.ms;
+                atsWithItem += item2.ats;
+                rangeWithItem += item2.range;
+                ultChargesWithItem += item2.ultCharge;
+            }
+        }
+    */
     private void Update()
     {
         if (canAttack() && !isMoving)
