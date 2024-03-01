@@ -4530,7 +4530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f3dbaee8fcacfe46ab600b944ed529a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitIcon: {fileID: 0}
+  unitIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   unitsManager: {fileID: 0}
   currentCase: {fileID: 857554479}
   targetCase: {fileID: 832155954}
@@ -20232,7 +20232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f3dbaee8fcacfe46ab600b944ed529a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitIcon: {fileID: 0}
+  unitIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   unitsManager: {fileID: 0}
   currentCase: {fileID: 1908349356}
   targetCase: {fileID: 1424285453}

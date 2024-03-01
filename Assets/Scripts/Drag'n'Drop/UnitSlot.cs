@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class UnitSlot : MonoBehaviour
 {
     public GameObject unitImage;
-    public Unit unit;
+    public GameObject unit;
     public bool hasInstantiate;
 
 
@@ -14,9 +14,9 @@ public class UnitSlot : MonoBehaviour
         unitImage.GetComponent<Image>().sprite = newImage;
     }
 
-    public void AddItem(Unit newUnit)
+    public void AddUnit(GameObject newUnit)
     {
         unit = newUnit;
-        ChangeImage(unit.unitIcon);
+        ChangeImage(unit.GetComponent<Unit>().unitIcon);
     }
 }
