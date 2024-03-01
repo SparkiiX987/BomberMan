@@ -4,7 +4,7 @@ using UnityEngine;
 
 [CreateAssetMenu()]
 
-public class UniqueItems : ItemSO
+public class UniqueItems : Item
 {
     public int range;
     public int ultCharge;

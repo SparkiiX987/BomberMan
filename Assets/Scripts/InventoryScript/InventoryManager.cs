@@ -1,42 +1,58 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using static UnityEditor.Progress;
+using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
-    public List<ItemSO> inventoryList = new List<ItemSO>();
-    public ItemSO emptyItem;
-    [field: SerializeField] public int inventorySize { get; private set; } = 6;
+    public List<Item> itemsList = new List<Item>();
+    public List<GameObject> itemsSlots = new List<GameObject>();
+    public GameObject itemPrefab;
+    public Item emptyItem;
+    public GridLayoutGroup gridLayoutGroup;
+    private Slot slot;
 
-    public void Awake()
+    private void Awake()
     {
         InitializeInventory();
+        slot = GetComponent<Slot>();
     }
 
-    public void InitializeInventory() 
+    public void InitializeInventory()
     {
-        while (inventoryList.Count < inventorySize)
+        foreach (Item item in itemsList)
         {
-            inventoryList.Add(emptyItem);
+            GameObject newItemSlot = Instantiate(itemPrefab, gridLayoutGroup.transform); 
+            itemsSlots.Add(newItemSlot); 
+            slot = newItemSlot.GetComponent<Slot>();
+            slot.UpdateItem(item); 
         }
     }
 
-    public void AddItemByID(ItemSO item)
+    public void AddItemByID(Item item)
     {
-
+        for (int i = 0; i < itemsList.Count; i++)
+        {
+            if (itemsList[i] == emptyItem)
+            {
+                itemsList[i] = item; 
+                slot = itemsSlots[i].GetComponent<Slot>();
+                slot.UpdateItem(item); 
+                return;
+            }
+        }
     }
 
-    public void RemoveItemByID(ItemSO item)
+    public void RemoveItemByID(Item item)
     {
-        for (int i = 0; i < inventoryList.Count; i++)
+        for (int i = 0; i < itemsList.Count; i++)
         {
-            if (inventoryList[i] == item)
+            if (itemsList[i] != emptyItem)
             {
-                inventoryList.RemoveAt(item.id);
-                inventoryList.Add(emptyItem);
-                break;
+                itemsList[i] = emptyItem;
+                slot = itemsSlots[i].GetComponent<Slot>();
+                slot.UpdateItem(emptyItem);
+                return;
             }
         }
     }
