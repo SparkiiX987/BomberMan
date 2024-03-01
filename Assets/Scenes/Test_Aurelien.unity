@@ -165,8 +165,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &32514935
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -288,8 +290,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &34175479
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -411,8 +415,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &43768008
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -534,8 +540,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &43895613
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -657,8 +665,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &46284285
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -780,8 +790,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &58725175
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -903,8 +915,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &58894240
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1026,8 +1040,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &81564707
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1149,8 +1165,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &85291626
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1272,8 +1290,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &93035795
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1395,8 +1415,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &96958780
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1518,8 +1540,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &106535082
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1641,8 +1665,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &112388255
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1764,8 +1790,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &114993707
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1887,8 +1915,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &125902653
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2010,8 +2040,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &154982540
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2133,8 +2165,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &156392973
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2248,7 +2282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  walkable: 1
+  walkable: 0
   hasUnite: 0
   type: 0
   up: {fileID: 0}
@@ -2256,8 +2290,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &158118382
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2379,8 +2415,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &166822356
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2502,8 +2540,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &174264208
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2625,8 +2665,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &181239109
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2740,7 +2782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  walkable: 1
+  walkable: 0
   hasUnite: 0
   type: 0
   up: {fileID: 0}
@@ -2748,8 +2790,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &186987642
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2871,8 +2915,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &187274437
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2986,7 +3032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  walkable: 1
+  walkable: 0
   hasUnite: 0
   type: 0
   up: {fileID: 0}
@@ -2994,8 +3040,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &199234652
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3117,8 +3165,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &220143110
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3240,8 +3290,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &241654224
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3363,8 +3415,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &249378798
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3486,8 +3540,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &252360624
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3609,8 +3665,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &255914512
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3732,8 +3790,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &257821743
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3855,8 +3915,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &258821097
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3978,8 +4040,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &285608767
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4101,8 +4165,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &297359422
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4224,8 +4290,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &299110414
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4347,8 +4415,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &300570898
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4428,6 +4498,122 @@ Transform:
   m_Father: {fileID: 1175444463}
   m_RootOrder: 193
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &312987793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 312987798}
+  - component: {fileID: 312987797}
+  - component: {fileID: 312987796}
+  - component: {fileID: 312987795}
+  - component: {fileID: 312987794}
+  m_Layer: 0
+  m_Name: BlueUnit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &312987794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312987793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3dbaee8fcacfe46ab600b944ed529a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  unitsManager: {fileID: 0}
+  currentCase: {fileID: 857554479}
+  targetCase: {fileID: 832155954}
+  caseThatContainTargetEnnemy: {fileID: 112388254}
+--- !u!136 &312987795
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312987793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &312987796
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312987793}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &312987797
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312987793}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &312987798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312987793}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 5.67, y: 1.3, z: -5}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &319427252
 GameObject:
   m_ObjectHideFlags: 0
@@ -4470,8 +4656,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &319427254
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4593,8 +4781,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &328533328
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4716,8 +4906,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &340672707
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4839,8 +5031,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &340692417
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4962,8 +5156,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &342575560
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5085,8 +5281,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &362114957
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5208,8 +5406,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &369773467
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5323,7 +5523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  walkable: 1
+  walkable: 0
   hasUnite: 0
   type: 0
   up: {fileID: 0}
@@ -5331,8 +5531,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &378570066
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5454,8 +5656,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &379177159
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5577,8 +5781,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &382507403
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5700,8 +5906,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &394231591
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5823,8 +6031,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &398985804
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5946,8 +6156,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &404483332
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6069,8 +6281,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &411232380
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6192,8 +6406,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &411784798
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6315,8 +6531,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &436532032
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6438,8 +6656,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &446583218
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6561,8 +6781,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &453759080
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6684,8 +6906,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &454657048
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6807,8 +7031,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &457833673
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6930,8 +7156,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &469460624
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7053,8 +7281,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &476339019
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7176,8 +7406,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &493822470
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7299,8 +7531,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &495271621
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7422,8 +7656,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &501526349
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7545,8 +7781,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &504945696
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7668,8 +7906,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &505036283
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7791,8 +8031,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &516000147
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7914,8 +8156,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &530722055
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8037,8 +8281,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &536832720
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8160,8 +8406,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &546980479
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8283,8 +8531,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &560185638
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8406,8 +8656,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &567355830
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8529,8 +8781,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &571160113
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8652,8 +8906,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &573645002
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8775,8 +9031,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &584255937
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8890,7 +9148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  walkable: 1
+  walkable: 0
   hasUnite: 0
   type: 0
   up: {fileID: 0}
@@ -8898,8 +9156,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &601357432
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9021,8 +9281,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &612575266
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9144,8 +9406,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &628953444
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9267,8 +9531,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &632698350
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9390,8 +9656,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &632809033
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9505,7 +9773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  walkable: 1
+  walkable: 0
   hasUnite: 0
   type: 0
   up: {fileID: 0}
@@ -9513,8 +9781,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &644610964
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9636,8 +9906,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &667994660
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9759,8 +10031,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &672734310
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9882,8 +10156,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &672972889
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10005,8 +10281,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &686773539
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10128,8 +10406,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &696289908
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10251,8 +10531,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &698737996
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10374,8 +10656,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &702323576
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10497,8 +10781,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &710927445
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10620,8 +10906,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &714458640
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10743,8 +11031,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &721840059
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10866,8 +11156,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &736219712
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10989,8 +11281,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &753156893
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11070,6 +11364,82 @@ Transform:
   m_Father: {fileID: 1175444463}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &756132492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 756132493}
+  - component: {fileID: 756132495}
+  - component: {fileID: 756132494}
+  m_Layer: 5
+  m_Name: UnitImage
+  m_TagString: UnitSlot
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &756132493
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756132492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1952107418}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 150, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &756132494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756132492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.6377357, g: 0.6377357, b: 0.6377357, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &756132495
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756132492}
+  m_CullTransparentMesh: 1
 --- !u!1 &783094031
 GameObject:
   m_ObjectHideFlags: 0
@@ -11112,8 +11482,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &783094033
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11235,8 +11607,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &787398609
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11358,8 +11732,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &790229901
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11439,6 +11815,110 @@ Transform:
   m_Father: {fileID: 1175444463}
   m_RootOrder: 197
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &794049280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794049284}
+  - component: {fileID: 794049283}
+  - component: {fileID: 794049282}
+  - component: {fileID: 794049281}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &794049281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794049280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &794049282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794049280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &794049283
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794049280}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &794049284
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794049280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1964636631}
+  - {fileID: 1952107418}
+  - {fileID: 1135831185}
+  - {fileID: 2002735802}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &799147829
 GameObject:
   m_ObjectHideFlags: 0
@@ -11481,8 +11961,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &799147831
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11604,8 +12086,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &814761335
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11727,8 +12211,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &830924211
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11850,8 +12336,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &832155955
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11973,8 +12461,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &844893661
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12096,8 +12586,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &847915529
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12219,8 +12711,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &857210451
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12342,8 +12836,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &857554480
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12465,8 +12961,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &874413476
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12588,8 +13086,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &875320358
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12711,8 +13211,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &879882637
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12834,8 +13336,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &882368121
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12957,8 +13461,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &904482662
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13080,8 +13586,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &906826878
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13203,8 +13711,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &917766523
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13326,8 +13836,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &929875102
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13449,8 +13961,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &939917256
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13572,8 +14086,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &961705021
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13695,8 +14211,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &964766446
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13818,8 +14336,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &965907801
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13941,8 +14461,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &967682376
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14064,8 +14586,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &968256272
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14187,8 +14711,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &969232089
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14310,8 +14836,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &969258656
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14433,8 +14961,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &980212699
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14556,8 +15086,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &995907162
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14679,8 +15211,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1000903376
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14760,6 +15294,53 @@ Transform:
   m_Father: {fileID: 1175444463}
   m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1031906259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1031906261}
+  - component: {fileID: 1031906260}
+  m_Layer: 0
+  m_Name: RedUnitManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1031906260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031906259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5764f68ff55d4cb45a806eb5b1b20410, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  units:
+  - {fileID: 1352312989}
+  ennemiesUnits: {fileID: 2024015394}
+--- !u!4 &1031906261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031906259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98.45015, y: 52.892773, z: -2.7400398}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1037858529
 GameObject:
   m_ObjectHideFlags: 0
@@ -14802,8 +15383,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1037858531
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14925,8 +15508,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1043376710
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15048,8 +15633,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1046724467
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15171,8 +15758,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1051242945
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15294,8 +15883,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1078475238
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15417,8 +16008,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1083327434
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15540,8 +16133,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1096636432
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15663,8 +16258,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1101304988
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15786,8 +16383,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1108189322
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15909,8 +16508,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1111164535
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16032,8 +16633,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1132683048
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16113,6 +16716,58 @@ Transform:
   m_Father: {fileID: 1175444463}
   m_RootOrder: 187
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1135831184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1135831185}
+  - component: {fileID: 1135831186}
+  m_Layer: 5
+  m_Name: DragnDropSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1135831185
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135831184}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 794049284}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1135831186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135831184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3e00f9409cf9674d8e5a2b5038a9463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventSystem: {fileID: 1459064374}
+  m_Raycaster: {fileID: 794049281}
+  dragNDropGO: {fileID: 2002735801}
 --- !u!1 &1136324075
 GameObject:
   m_ObjectHideFlags: 0
@@ -16155,8 +16810,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1136324077
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16278,8 +16935,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1147740759
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16401,8 +17060,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1149128316
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16524,8 +17185,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1162768496
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16647,8 +17310,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1170855094
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16770,8 +17435,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1174004619
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16893,8 +17560,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1174112657
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17573,8 +18242,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1182627827
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17696,8 +18367,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1192326107
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17819,8 +18492,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1192412769
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17942,8 +18617,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1206810290
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18065,8 +18742,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1216507689
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18188,8 +18867,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1224505104
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18311,8 +18992,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1226315627
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18434,8 +19117,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1241571824
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18557,8 +19242,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1255706654
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18680,8 +19367,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1256688476
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18803,8 +19492,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1264655565
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18926,8 +19617,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1280020150
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19049,8 +19742,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1296602052
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19172,8 +19867,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1323429507
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19295,8 +19992,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1333447512
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19418,8 +20117,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1342375080
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19499,6 +20200,122 @@ Transform:
   m_Father: {fileID: 1175444463}
   m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1352312988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1352312993}
+  - component: {fileID: 1352312992}
+  - component: {fileID: 1352312991}
+  - component: {fileID: 1352312990}
+  - component: {fileID: 1352312989}
+  m_Layer: 0
+  m_Name: RedUnit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1352312989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352312988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3dbaee8fcacfe46ab600b944ed529a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  unitsManager: {fileID: 0}
+  currentCase: {fileID: 1908349356}
+  targetCase: {fileID: 1424285453}
+  caseThatContainTargetEnnemy: {fileID: 112388254}
+--- !u!136 &1352312990
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352312988}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1352312991
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352312988}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1352312992
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352312988}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1352312993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352312988}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 163, y: 159, z: -5}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1364265492
 GameObject:
   m_ObjectHideFlags: 0
@@ -19541,8 +20358,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1364265494
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19664,8 +20483,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1369653845
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19787,8 +20608,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1376690493
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19910,8 +20733,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1377419303
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20033,8 +20858,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1378842172
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20156,8 +20983,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1380021341
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20279,8 +21108,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1381641330
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20402,8 +21233,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1396928946
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20525,8 +21358,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1408107391
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20648,8 +21483,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1424285454
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20771,8 +21608,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1446822985
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20894,8 +21733,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1447959124
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21017,8 +21858,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1448193720
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21098,6 +21941,74 @@ Transform:
   m_Father: {fileID: 1175444463}
   m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1459064372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1459064375}
+  - component: {fileID: 1459064374}
+  - component: {fileID: 1459064373}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1459064373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459064372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1459064374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459064372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1459064375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459064372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1469703753
 GameObject:
   m_ObjectHideFlags: 0
@@ -21140,8 +22051,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1469703755
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21263,8 +22176,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1477715867
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21386,8 +22301,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1480671972
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21509,8 +22426,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1491037914
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21632,8 +22551,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1496664715
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21755,8 +22676,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1505930942
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21878,8 +22801,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1511290472
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21993,7 +22918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  walkable: 1
+  walkable: 0
   hasUnite: 0
   type: 0
   up: {fileID: 0}
@@ -22001,8 +22926,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1513818037
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22124,8 +23051,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1523498799
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22247,8 +23176,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1535157511
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22370,8 +23301,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1536551945
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22493,8 +23426,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1545690811
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22616,8 +23551,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1558472534
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22739,8 +23676,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1565995727
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22862,8 +23801,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1566295854
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22985,8 +23926,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1568578999
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23108,8 +24051,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1568921328
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23231,8 +24176,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1572348270
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23354,8 +24301,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1577992186
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23477,8 +24426,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1578429473
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23600,8 +24551,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1583662780
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23723,8 +24676,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1590875281
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23846,8 +24801,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1599285863
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23969,8 +24926,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1602237114
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24092,8 +25051,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1604047075
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24215,8 +25176,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1636551046
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24338,8 +25301,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1642923232
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24461,8 +25426,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1644487080
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24584,8 +25551,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1645025657
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24707,8 +25676,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1652735895
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24830,8 +25801,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1671730270
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25047,8 +26020,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1694585471
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25170,8 +26145,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1715495099
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25293,8 +26270,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1724149689
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25416,8 +26395,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1742464287
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25539,8 +26520,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1742663086
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25662,8 +26645,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1744981520
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25785,8 +26770,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1748321795
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25908,8 +26895,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1755733752
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26023,7 +27012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  walkable: 1
+  walkable: 0
   hasUnite: 0
   type: 0
   up: {fileID: 0}
@@ -26031,8 +27020,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1763328249
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26154,8 +27145,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1766482204
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26277,8 +27270,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1768642095
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26400,8 +27395,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1796081923
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26523,8 +27520,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1805995238
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26646,8 +27645,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1817801230
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26769,8 +27770,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1832594248
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26892,8 +27895,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1840064994
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27015,8 +28020,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1842936296
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27138,8 +28145,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1852826103
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27261,8 +28270,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1858924980
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27384,8 +28395,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1870120645
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27507,8 +28520,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1873681602
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27630,8 +28645,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1879196152
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27753,8 +28770,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1905228035
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27876,8 +28895,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1908349357
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27999,8 +29020,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1910810643
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28122,8 +29145,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1926452761
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28245,8 +29270,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1944304259
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28326,6 +29353,99 @@ Transform:
   m_Father: {fileID: 1175444463}
   m_RootOrder: 243
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1952107417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1952107418}
+  - component: {fileID: 1952107420}
+  - component: {fileID: 1952107419}
+  - component: {fileID: 1952107421}
+  m_Layer: 5
+  m_Name: UnitContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1952107418
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952107417}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 756132493}
+  m_Father: {fileID: 794049284}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -840, y: -445}
+  m_SizeDelta: {x: 175, y: 175}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1952107419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952107417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2603773, g: 0.2603773, b: 0.2603773, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1952107420
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952107417}
+  m_CullTransparentMesh: 1
+--- !u!114 &1952107421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952107417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0a8c90a1ba0264a945b57e9c0947e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitImage: {fileID: 756132492}
+  unit: {fileID: 312987794}
+  hasInstantiate: 0
 --- !u!1 &1957265417
 GameObject:
   m_ObjectHideFlags: 0
@@ -28368,8 +29488,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1957265419
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28491,8 +29613,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1961728722
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28572,6 +29696,82 @@ Transform:
   m_Father: {fileID: 1175444463}
   m_RootOrder: 147
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1964636630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1964636631}
+  - component: {fileID: 1964636633}
+  - component: {fileID: 1964636632}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1964636631
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964636630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 794049284}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -442}
+  m_SizeDelta: {x: 1920, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1964636632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964636630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1964636633
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964636630}
+  m_CullTransparentMesh: 1
 --- !u!1 &1972304948
 GameObject:
   m_ObjectHideFlags: 0
@@ -28614,8 +29814,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1972304950
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28737,8 +29939,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1972675308
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28860,8 +30064,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1973942523
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28983,8 +30189,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1996658269
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29106,8 +30314,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1998021344
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29229,8 +30439,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &1998508623
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29310,6 +30522,42 @@ Transform:
   m_Father: {fileID: 1175444463}
   m_RootOrder: 198
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &2002735801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2002735802}
+  m_Layer: 5
+  m_Name: DragnDrop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2002735802
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002735801}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 794049284}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2009338547
 GameObject:
   m_ObjectHideFlags: 0
@@ -29352,8 +30600,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2009338549
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29475,8 +30725,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2018763238
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29598,8 +30850,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2023122216
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29679,6 +30933,53 @@ Transform:
   m_Father: {fileID: 1175444463}
   m_RootOrder: 155
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &2024015393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2024015395}
+  - component: {fileID: 2024015394}
+  m_Layer: 0
+  m_Name: BlueUnitManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2024015394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024015393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5764f68ff55d4cb45a806eb5b1b20410, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  units:
+  - {fileID: 312987794}
+  ennemiesUnits: {fileID: 1031906260}
+--- !u!4 &2024015395
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024015393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98.45015, y: 52.892773, z: -2.7400398}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2025071206
 GameObject:
   m_ObjectHideFlags: 0
@@ -29721,8 +31022,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2025071208
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29844,8 +31147,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2029379328
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29967,8 +31272,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2031252457
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30090,8 +31397,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2034545412
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30213,8 +31522,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2037242679
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30336,8 +31647,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2041561700
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30459,8 +31772,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2043959166
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30582,8 +31897,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2055450463
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30697,7 +32014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  walkable: 1
+  walkable: 0
   hasUnite: 0
   type: 0
   up: {fileID: 0}
@@ -30705,8 +32022,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2068058764
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30828,8 +32147,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2070179359
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30951,8 +32272,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2072683325
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31066,7 +32389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  walkable: 1
+  walkable: 0
   hasUnite: 0
   type: 0
   up: {fileID: 0}
@@ -31074,8 +32397,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2084791356
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31197,8 +32522,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2091455176
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31320,8 +32647,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2097627736
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31443,8 +32772,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2115176915
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31566,8 +32897,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2118050595
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31689,8 +33022,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2120574926
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31896,8 +33231,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2141219047
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32019,8 +33356,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2144448682
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32142,8 +33481,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2146297784
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32265,8 +33606,10 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   neighbours: []
-  wall: {fileID: 0}
-  flore: {fileID: 0}
+  wall: {fileID: 6135078221617847421, guid: 453ee5f5ae7b38e4a9a77de7d4a770af, type: 3}
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!64 &2146457935
 MeshCollider:
   m_ObjectHideFlags: 0
