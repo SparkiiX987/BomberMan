@@ -4531,7 +4531,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  unitsManager: {fileID: 0}
+  hp: 50
+  atk: 5
+  ms: 15
+  ats: 2
+  range: 0
+  ultCharges: 0
+  hpWithItem: 0
+  atkWithItem: 0
+  msWithItem: 0
+  atsWithItem: 0
+  rangeWithItem: 0
+  ultChargesWithItem: 0
+  unitsManager: {fileID: 2024015394}
   currentCase: {fileID: 857554479}
   targetCase: {fileID: 832155954}
   caseThatContainTargetEnnemy: {fileID: 112388254}
@@ -20233,7 +20245,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  unitsManager: {fileID: 0}
+  hp: 50
+  atk: 5
+  ms: 15
+  ats: 2
+  range: 0
+  ultCharges: 0
+  hpWithItem: 0
+  atkWithItem: 0
+  msWithItem: 0
+  atsWithItem: 0
+  rangeWithItem: 0
+  ultChargesWithItem: 0
+  unitsManager: {fileID: 1031906260}
   currentCase: {fileID: 1908349356}
   targetCase: {fileID: 1424285453}
   caseThatContainTargetEnnemy: {fileID: 112388254}
@@ -29444,7 +29468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitImage: {fileID: 756132492}
-  unit: {fileID: 312987794}
+  unit: {fileID: 0}
   hasInstantiate: 0
 --- !u!1 &1957265417
 GameObject:

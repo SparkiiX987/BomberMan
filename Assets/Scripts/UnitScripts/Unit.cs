@@ -7,25 +7,27 @@ public class Unit : MonoBehaviour
     private string unitName;
 
     public Sprite unitIcon;
-    
-    private int hp;
-    private int atk;
-    private float ms = 15;
-    private float ats;
-    private int range;
-    private int ultCharges;
+
+    [SerializeField] private int hp;
+    [SerializeField] private int atk;
+    [SerializeField] private float ms = 15;
+    [SerializeField] private float ats = 2;
+    [SerializeField] private int range;
+    [SerializeField] private int ultCharges;
 
 
-    private int hpWithItem;
-    private int atkWithItem;
-    private float msWithItem = 15;
-    private float atsWithItem;
-    private int rangeWithItem;
-    private int ultChargesWithItem;
+    [SerializeField] private int hpWithItem;
+    [SerializeField] private int atkWithItem;
+    [SerializeField] private float msWithItem = 15;
+    [SerializeField] private float atsWithItem;
+    [SerializeField] private int rangeWithItem;
+    [SerializeField] private int ultChargesWithItem;
 
     private bool canMove = true;
     private bool isMoving;
     public UnitsManager unitsManager;
+    private Unit targetUnit;
+    private float attackCooldown = 0;
 
     public Case currentCase;
     public Case targetCase;
@@ -66,11 +68,26 @@ public class Unit : MonoBehaviour
             }
         }
     */
+
+    private void Start()
+    {
+        hpWithItem = hp;
+        atkWithItem = atk;
+        msWithItem = ms;
+        atsWithItem = ats;
+        rangeWithItem = range;
+        ultChargesWithItem = ultCharges;
+    }
+
     private void Update()
     {
-        if (canAttack() && !isMoving)
+        if(attackCooldown < ats)
         {
-            print("attack");
+            attackCooldown += Time.deltaTime;
+        }
+        if (canAttack() && !isMoving && attackCooldown >= ats)
+        {
+            Attack();
         }
         else if (canMove)
         {
@@ -213,8 +230,28 @@ public class Unit : MonoBehaviour
                 minDist = Vector3.Distance(transform.position, ennemiesUnits[i].transform.position);
             }
         }
+        targetUnit = ennemiesUnits[index];
         return ennemiesUnits[index].currentCase;
 
+    }
+    
+    private void Attack()
+    {
+        print("attack");
+        attackCooldown = 0;
+        print(targetUnit);
+        targetUnit.AddHP(-atkWithItem);
+
+    }
+
+    public void AddHP(int damages)
+    {
+        hpWithItem += damages;
+        if(hpWithItem <= 0)
+        {
+            unitsManager.units.Remove(gameObject.GetComponent<Unit>());
+            Destroy(gameObject);
+        }
     }
 
 }
