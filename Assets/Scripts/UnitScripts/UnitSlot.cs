@@ -7,8 +7,6 @@ public class UnitSlot : MonoBehaviour
     public GameObject unit;
     public bool hasInstantiate;
 
-
-
     private void ChangeImage(Sprite newImage)
     {
         unitImage.GetComponent<Image>().sprite = newImage;
