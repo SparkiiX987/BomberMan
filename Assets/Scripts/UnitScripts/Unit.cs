@@ -12,7 +12,7 @@ public class Unit : MonoBehaviour
     [SerializeField] private int atk;
     [SerializeField] private float ms = 15;
     [SerializeField] private float ats = 2;
-    [SerializeField] private int range;
+    [SerializeField] public int range;
     [SerializeField] private int ultCharges;
 
 
@@ -23,11 +23,10 @@ public class Unit : MonoBehaviour
     [SerializeField] private int rangeWithItem;
     [SerializeField] private int ultChargesWithItem;
 
-    private bool canMove = true;
+    public bool canMove = true;
     private bool isMoving;
     public UnitsManager unitsManager;
     private Unit targetUnit;
-    private float attackCooldown = 0;
 
     public Case currentCase;
     public Case targetCase;
@@ -81,38 +80,39 @@ public class Unit : MonoBehaviour
 
     private void Update()
     {
-        if(attackCooldown < ats)
-        {
-            attackCooldown += Time.deltaTime;
-        }
-        if (canAttack() && !isMoving && attackCooldown >= ats)
-        {
-            Attack();
-        }
-        else if (canMove)
-        {
-            canMove = false;
-            isMoving = true;
-            currentCase = targetCase;
-            targetCase = PathFinding(currentCase, caseThatContainTargetEnnemy);
-            if (targetCase == caseThatContainTargetEnnemy)
-            {
-                isMoving = false;
-                canMove = true;
-            }
-        }
-        if(isMoving)
+        if (isMoving)
         {
             MoveToCase(targetCase);
             if (Vector3.Distance(transform.position, targetCase.transform.position) < 4.5f)
             {
-                transform.position = new Vector3 (targetCase.transform.position.x, targetCase.transform.position.y, -5f);
+                transform.position = new Vector3(targetCase.transform.position.x, targetCase.transform.position.y, -5f);
                 canMove = true;
                 isMoving = false;
-                if (FindEnnemyCase() != null)
-                    caseThatContainTargetEnnemy = FindEnnemyCase();
             }
         }
+    }
+
+    public void SetTargetCase()
+    {
+        canMove = false;
+        isMoving = true;
+        currentCase = targetCase;
+        targetCase = PathFinding(currentCase, caseThatContainTargetEnnemy);
+        if (targetCase == caseThatContainTargetEnnemy)
+        {
+            isMoving = false;
+            canMove = true;
+        }
+    }
+
+    public int GetAttack()
+    {
+        return atkWithItem;
+    }
+
+    public float GetAttackSpeed()
+    {
+        return atsWithItem;
     }
 
     private bool canAttack()
@@ -128,13 +128,14 @@ public class Unit : MonoBehaviour
 
     public Case PathFinding(Case start, Case end)
     {
-
+        int safe = 0;
         List<Case> open = new List<Case>(); // cases that will be examinate
         HashSet<Case> closed = new HashSet<Case>(); // cases already examinate
         open.Add(start); // the start case to the examination list
 
         while (open.Count > 0) // while all cases are not examinate
         {
+            safe++;
             Case currentCase = open[0];
             for (int i = 1; i < open.Count; i++)
             {
@@ -188,6 +189,7 @@ public class Unit : MonoBehaviour
                         open.Add(neighbour);
                 }
             }
+            if (safe > 2000) break;
         }
         // no path as been founded
         return null;
@@ -215,43 +217,18 @@ public class Unit : MonoBehaviour
         return _currentCase;
     }
 
-   private Case FindEnnemyCase()
-    {
-        List<Unit> ennemiesUnits = unitsManager.ennemiesUnits.units;
-        if (unitsManager.ennemiesUnits.units.Count == 0)
-            return null;
-        float minDist = Vector3.Distance(transform.position, ennemiesUnits[0].transform.position);
-        int index = 0;
-        for(int i = 1; i < ennemiesUnits.Count; i++)
-        {
-            if (Vector3.Distance(transform.position, ennemiesUnits[i].transform.position) < minDist)
-            {
-                index = i;
-                minDist = Vector3.Distance(transform.position, ennemiesUnits[i].transform.position);
-            }
-        }
-        targetUnit = ennemiesUnits[index];
-        return ennemiesUnits[index].currentCase;
-
-    }
     
-    private void Attack()
+    public bool TakeHit(int value)
     {
-        print("attack");
-        attackCooldown = 0;
-        print(targetUnit);
-        targetUnit.AddHP(-atkWithItem);
-
+        hpWithItem -= value;
+        bool isDead  = hpWithItem <= 0;
+        if (isDead) Die();
+        return isDead;
     }
 
-    public void AddHP(int damages)
+    private void Die()
     {
-        hpWithItem += damages;
-        if(hpWithItem <= 0)
-        {
-            unitsManager.units.Remove(gameObject.GetComponent<Unit>());
-            Destroy(gameObject);
-        }
+        unitsManager.units.Remove(unitsManager.GetUnit(gameObject.GetComponent<Unit>()));
+        Destroy(gameObject);
     }
-
 }

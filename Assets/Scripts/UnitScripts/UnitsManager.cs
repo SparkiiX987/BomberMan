@@ -14,6 +14,15 @@ public class UnitsManager : MonoBehaviour
         }
     }
 
+    public Unit GetUnit(Unit _unit)
+    {
+        foreach (Unit unit in units)
+        {
+            if (unit == _unit) return unit;
+        }
+        return null;
+    }
+
     private void AddAllUnitsIntoList()
     {
         //TODO
