@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 5
   name: DoubleBlades
-  icon: {fileID: 0}
   hp: 0
   atk: 10
   ats: 10
   ms: 0
+  isUniqueItem: 1
   range: 0
   ultCharge: 0

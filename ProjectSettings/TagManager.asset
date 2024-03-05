@@ -7,6 +7,9 @@ TagManager:
   - BlueUnit
   - RedUnit
   - UnitSlot
+  - ItemSlot
+  - GeneralItemSlot
+  - UniqueItemSlot
   layers:
   - Default
   - TransparentFX

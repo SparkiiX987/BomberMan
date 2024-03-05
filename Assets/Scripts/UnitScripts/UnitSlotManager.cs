@@ -5,23 +5,21 @@ using UnityEngine.UI;
 
 public class UnitSlotManager : MonoBehaviour
 {
-    public List<GameObject> unitPrefab = new List<GameObject>();
-    public GameObject unitContainer;
+    public List<GameObject> unitInstances = new List<GameObject>(); 
+    public GameObject unitContainerPrefab;
     [SerializeField] private GridLayoutGroup gridLayoutGroup;
-    private UnitSlot unitSlot;
 
     public void Awake()
     {
         InitializeUnitSlots();
-        unitSlot = GetComponent<UnitSlot>();
     }
 
     public void InitializeUnitSlots()
     {
-        foreach (GameObject unitContainer in unitPrefab)
+        for (int i = 0; i < 5; i++)
         {
-            GameObject unitInstance = Instantiate(unitContainer, gridLayoutGroup.transform);
-            unitInstance.SetActive(true);
+            GameObject unitInstance = Instantiate(unitContainerPrefab, gridLayoutGroup.transform);
+            unitInstances.Add(unitInstance);
         }
     }
 }

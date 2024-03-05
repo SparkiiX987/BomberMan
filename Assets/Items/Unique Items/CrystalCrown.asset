@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 9
   name: CristalCrown
-  icon: {fileID: 0}
   hp: 0
   atk: 0
   ats: 0
   ms: 0
+  isUniqueItem: 1
   range: 0
   ultCharge: 1

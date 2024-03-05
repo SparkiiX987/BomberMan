@@ -7,7 +7,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.EventSystems;
 
-public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class Slot : MonoBehaviour //IPointerEnterHandler, IPointerExitHandler
 {
     public List<Sprite> itemSprite = new List<Sprite>();
     public List<Sprite> itemBorder = new List<Sprite>();
@@ -16,6 +16,7 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public GameObject descScreen;
     public Image currentItemSprite;
     public Image currentBorderSprite;
+    public bool hasInstantiate;
 
     public void UpdateItem(Item item)
     {
@@ -91,7 +92,7 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         }
     }
 
-    public void OnPointerEnter(PointerEventData eventData)
+    /*public void OnPointerEnter(PointerEventData eventData)
     {
         descScreen.SetActive(true);
     }
@@ -99,5 +100,5 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public void OnPointerExit(PointerEventData eventData)
     {
         descScreen.SetActive(false);
-    }
+    }*/
 }
