@@ -26,19 +26,16 @@ public class CheckForEnemyInAttackRange : Node
         if (target == null)
         {
             state = NodeState.FAILURE;
-            Debug.Log("check state : " + state);
             return state;
         }
         Unit targetUnit = (Unit)target;
         if (Vector3.Distance(unit.transform.position, targetUnit.transform.position) <= range)
         {
             state = NodeState.SUCCESS;
-            Debug.Log("check state : " + state);
             return state;
         }
 
         state = NodeState.FAILURE;
-        Debug.Log("check state : " + state);
         return state;
     }
 }
