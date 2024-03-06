@@ -7,14 +7,15 @@ public class UnitSlot : MonoBehaviour
     public GameObject unit;
     public bool hasInstantiate;
 
-
     public GameObject uniqueItemSlot;
     public bool uniqueItemFilled;
     public GameObject generalItemSlot;
     public bool generalItemFilled;
+    public UnitSlotManager unitSlotManager;
 
     private void Start()
     {
+        unitSlotManager = GetComponentInParent<UnitSlotManager>();
         uniqueItemFilled = false;
         generalItemFilled = false;
     }
@@ -33,6 +34,7 @@ public class UnitSlot : MonoBehaviour
     public void EquipItem(Item item, Slot slot)
     {
         ChangeItemImage(item, slot);
+        unitSlotManager.inventoryManager.RemoveItemByID(item);
     }
 
     public void ChangeItemImage(Item item, Slot slot)
@@ -45,7 +47,6 @@ public class UnitSlot : MonoBehaviour
         }
         else
         {
-            print(slot);
             generalItemSlot.GetComponent<Image>().sprite= slot.currentItemSprite.sprite;
             generalItemFilled = true;
         }

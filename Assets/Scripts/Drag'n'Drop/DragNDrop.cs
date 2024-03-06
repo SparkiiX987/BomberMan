@@ -76,12 +76,9 @@ public class DragNDrop : MonoBehaviour
 
         InventoryManager inventoryManager = result.GetComponentInParent<InventoryManager>();
         
-
-        //item = inventoryManager.itemsList[inventoryManager.itemsSlots.IndexOf(slot.gameObject)];    
         if (Input.GetMouseButtonDown(0) && result.CompareTag("ItemSlot") && inventoryManager.itemsList[inventoryManager.itemsSlots.IndexOf(result.GetComponentInParent<Slot>().gameObject)] != inventoryManager.emptyItem)
         {
             parentSlot = result.GetComponentInParent<Slot>();
-            print(parentSlot);
             item = inventoryManager.itemsList[inventoryManager.itemsSlots.IndexOf(parentSlot.gameObject)];
             draging = true;
             Slot = result.transform.parent.gameObject;
@@ -90,18 +87,16 @@ public class DragNDrop : MonoBehaviour
         {
             draging = false;
             ReturnImage(result);
-            if(unitInstance.GetComponentInParent<UnitSlot>() != null)
+            if (unitInstance.GetComponentInParent<UnitSlot>() != null)
             {
                 UnitSlot unitSlot = unitInstance.GetComponentInParent<UnitSlot>();
                 if (item.isUniqueItem && !unitSlot.uniqueItemFilled && unitInstance.CompareTag("UnitSlot"))
                 {
                     unitSlot.EquipItem(item, parentSlot);
-                    inventoryManager.RemoveItemByID(item);
                 }
                 else if (!item.isUniqueItem && !unitSlot.generalItemFilled && unitInstance.CompareTag("UnitSlot"))
                 {
                     unitSlot.EquipItem(item, parentSlot);
-                    inventoryManager.RemoveItemByID(item);
                 }
             }
         }
