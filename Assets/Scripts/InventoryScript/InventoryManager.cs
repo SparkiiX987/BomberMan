@@ -45,15 +45,13 @@ public class InventoryManager : MonoBehaviour
 
     public void RemoveItemByID(Item item)
     {
-        for (int i = 0; i < itemsList.Count; i++)
+        int index = itemsList.IndexOf(item);
+        itemsList.RemoveAt(index);
+        itemsList.Add(emptyItem); 
+
+        foreach (GameObject itemPrefab in itemsSlots)
         {
-            if (itemsList[i] != emptyItem)
-            {
-                itemsList[i] = emptyItem;
-                slot = itemsSlots[i].GetComponent<Slot>();
-                slot.UpdateItem(emptyItem);
-                return;
-            }
+            itemPrefab.GetComponent<Slot>().UpdateItem(itemsList[itemsSlots.IndexOf(itemPrefab)]);
         }
     }
 }

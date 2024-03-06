@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 7
   name: Crystal Belt
-  icon: {fileID: 0}
   hp: 10
   atk: 0
   ats: 0
   ms: 1
+  isUniqueItem: 1
   range: 0
   ultCharge: 0
