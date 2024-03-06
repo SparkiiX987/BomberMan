@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8747844bceccf4a94e652200f06187, type: 3}
+  m_Name: CrystalBelt
+  m_EditorClassIdentifier: 
+  id: 7
+  name: Crystal Belt
+  hp: 10
+  atk: 0
+  ats: 0
+  ms: 1
+  isUniqueItem: 1
+  range: 0
+  ultCharge: 0

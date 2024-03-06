@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0f3dbaee8fcacfe46ab600b944ed529a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - unitIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  - unitsManager: {instanceID: 0}
+  - currentCase: {instanceID: 0}
+  - targetCase: {instanceID: 0}
+  - caseThatContainTargetEnnemy: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
