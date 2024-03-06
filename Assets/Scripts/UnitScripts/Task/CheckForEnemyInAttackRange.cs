@@ -32,7 +32,6 @@ public class CheckForEnemyInAttackRange : Node
         Unit targetUnit = (Unit)target;
         if (Vector3.Distance(unit.transform.position, targetUnit.transform.position) <= range)
         {
-            Debug.Log("sucess");
             state = NodeState.SUCCESS;
             Debug.Log("check state : " + state);
             return state;
