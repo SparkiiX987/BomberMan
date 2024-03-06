@@ -1,21 +1,21 @@
 using System.Collections.Generic;
 using BehaviourTree;
+using UnityEngine;
 
-public class UnitBehaviourTree : Tree
+public class UnitBehaviourTree : Treee
 {
 
     public Unit unit;
-    public static int range;
+    public string enemyTag;
+    public LayerMask enemyLayer;
 
     protected override Node SetupTree()
     {
-        range = unit.range;
-
         Node root = new Selector(new List<Node>
         {
             new Sequence(new List<Node>
             {
-                new CheckForEnemyInAttackRange(unit),
+                new CheckForEnemyInAttackRange(unit, enemyTag, unit.rangeWithItem, enemyLayer),
                 new TaskAttackEnnemy(unit.GetAttackSpeed(), unit)
             }),
 
@@ -23,8 +23,10 @@ public class UnitBehaviourTree : Tree
             {
                 new CheckForRemainingEnemies(unit, unit.unitsManager),
                 new TaskWalkToEnnemy(unit)
-            })
-        });
+            }),
+            new Wait()
+
+        }) ;
 
         return root;
     }

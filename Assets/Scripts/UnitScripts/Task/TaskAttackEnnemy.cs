@@ -37,8 +37,8 @@ public class TaskAttackEnnemy : Node
             }
         }
 
-        Debug.Log("check attacking");
         state = NodeState.RUNNING;
+        Debug.Log("attack state : " + state);
         return state;
     }
 

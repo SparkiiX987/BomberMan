@@ -20,7 +20,7 @@ public class Unit : MonoBehaviour
     [SerializeField] private int atkWithItem;
     [SerializeField] private float msWithItem = 15;
     [SerializeField] private float atsWithItem;
-    [SerializeField] private int rangeWithItem;
+    [SerializeField] public int rangeWithItem;
     [SerializeField] private int ultChargesWithItem;
 
     public bool canMove = true;
@@ -132,6 +132,11 @@ public class Unit : MonoBehaviour
         List<Case> open = new List<Case>(); // cases that will be examinate
         HashSet<Case> closed = new HashSet<Case>(); // cases already examinate
         open.Add(start); // the start case to the examination list
+
+        if(start.neighbours.Contains(end))
+        {
+            return start;
+        }
 
         while (open.Count > 0) // while all cases are not examinate
         {

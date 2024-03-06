@@ -4512,9 +4512,9 @@ GameObject:
   - component: {fileID: 312987795}
   - component: {fileID: 312987794}
   - component: {fileID: 312987799}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BlueUnit
-  m_TagString: Untagged
+  m_TagString: BlueUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4532,17 +4532,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  hp: 50
-  atk: 5
+  hp: 40
+  atk: 15
   ms: 15
-  ats: 2
-  range: 0
+  ats: 1
+  range: 11
   ultCharges: 0
   hpWithItem: 0
   atkWithItem: 0
   msWithItem: 0
   atsWithItem: 0
-  rangeWithItem: 0
+  rangeWithItem: 1
   ultChargesWithItem: 0
   canMove: 1
   unitsManager: {fileID: 2024015394}
@@ -4641,6 +4641,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unit: {fileID: 312987794}
+  enemyTag: RedUnit
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &319427252
 GameObject:
   m_ObjectHideFlags: 0
@@ -20240,9 +20244,9 @@ GameObject:
   - component: {fileID: 1352312991}
   - component: {fileID: 1352312990}
   - component: {fileID: 1352312989}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RedUnit
-  m_TagString: Untagged
+  m_TagString: RedUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

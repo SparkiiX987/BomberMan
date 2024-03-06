@@ -18,11 +18,9 @@ public class TaskWalkToEnnemy : Node
 
         if (unit.canMove)
         {
-            Debug.Log("can move");
             unit.SetTargetCase();
         }
 
-        Debug.Log("walk running");
         state = NodeState.RUNNING;
         return state;
     }

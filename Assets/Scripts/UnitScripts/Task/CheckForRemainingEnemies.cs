@@ -36,16 +36,13 @@ public class CheckForRemainingEnemies : Node
                 {
                     parent.parent.SetData("target", _unit);
                     // animator.SetBool("Walking", true);
-                    Debug.Log("check remaining sucess");
                     state = NodeState.SUCCESS;
                     return state;
                 }
             }
-            Debug.Log("check remaining fail");
             state = NodeState.FAILURE;
             return state;
         }
-        Debug.Log("check remaining sucess");
         state = NodeState.SUCCESS;
         return state;
     }
