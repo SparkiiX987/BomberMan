@@ -1,23 +1,38 @@
+using Unity.VisualScripting;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UnitSlot : MonoBehaviour
 {
     public GameObject unitImage;
-    public GameObject unit;
+    public Unit unit;
     public bool hasInstantiate;
 
     public GameObject uniqueItemSlot;
     public bool uniqueItemFilled;
     public GameObject generalItemSlot;
     public bool generalItemFilled;
-    public UnitSlotManager unitSlotManager;
+    public UnitsManager unitsManager;
+    public Image image;
 
-    private void Start()
+
+    private void Awake()
     {
-        unitSlotManager = GetComponentInParent<UnitSlotManager>();
         uniqueItemFilled = false;
         generalItemFilled = false;
+    }
+    private void Start()
+    {
+        if (unit != null)
+            UnitRef(unit);
+    }
+
+    public void UnitRef(Unit _unit)
+    {
+        int unitIndex = unitsManager.units.IndexOf(_unit);
+        if (unitIndex != -1)
+            unit = unitsManager.units[unitIndex];
     }
 
     private void ChangeUnitImage(Sprite newImage)
@@ -27,14 +42,13 @@ public class UnitSlot : MonoBehaviour
 
     public void AddUnit(GameObject newUnit)
     {
-        unit = newUnit;
         ChangeUnitImage(unit.GetComponent<Unit>().unitIcon);
     }
 
     public void EquipItem(Item item, Slot slot)
     {
         ChangeItemImage(item, slot);
-        unitSlotManager.inventoryManager.RemoveItemByID(item);
+        unitsManager.inventoryManager.RemoveItemByID(item);
     }
 
     public void ChangeItemImage(Item item, Slot slot)
@@ -49,6 +63,14 @@ public class UnitSlot : MonoBehaviour
         {
             generalItemSlot.GetComponent<Image>().sprite= slot.currentItemSprite.sprite;
             generalItemFilled = true;
+        }
+    }
+
+    public void KilledUnit()
+    {
+        if (unit.isDead)
+        {
+            Destroy(this);
         }
     }
 }

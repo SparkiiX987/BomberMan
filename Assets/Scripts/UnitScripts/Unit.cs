@@ -24,6 +24,7 @@ public class Unit : MonoBehaviour
     [SerializeField] private int ultChargesWithItem;
 
     public bool canMove = true;
+    public bool isDead;
     private bool isMoving;
     public UnitsManager unitsManager;
     private Unit targetUnit;
@@ -32,41 +33,43 @@ public class Unit : MonoBehaviour
     public Case targetCase;
     public Case caseThatContainTargetEnnemy;
 
-    // GeneralItiem item1
-    // UniqueItiem item2
+    GeneralItems item1;
+    UniqueItems item2;
 
-    /*
-        public void UpdateStats(GeneralItiem item1 = null, UniqueItiem item2 = null)
+    
+    public void UpdateStats(GeneralItems item1 = null, UniqueItems item2 = null)
+    {
+        hpWithItem = hp;
+        atkWithItem = atk;
+        msWithItem = ms;
+        atsWithItem = ats;
+        rangeWithItem = hp;
+        ultChargesWithItem = hp;
+
+        if(item1 == null && item2 == null)
         {
-            hpWithItem = hp;
-            atkWithItem = atk;
-            msWithItem = ms;
-            atsWithItem = ats;
-            rangeWithItem = hp;
-            ultChargesWithItem = hp;
-            if(item1 == null && item2 == null)
-            {
-                return;
-            }
-            
-            if(item1 != null)
-            {
-                hpWithItem += item1.hp;
-                atkWithItem += item1.atk;
-                msWithItem += item1.ms;
-                atsWithItem += item1.ats;
-            }
-            if(item1 != null)
-            {
-                hpWithItem += item2.hp;
-                atkWithItem += item2.atk;
-                msWithItem += item2.ms;
-                atsWithItem += item2.ats;
-                rangeWithItem += item2.range;
-                ultChargesWithItem += item2.ultCharge;
-            }
+            return;
         }
-    */
+            
+        if(item1 != null)
+        {
+            hpWithItem += item1.hp;
+            atkWithItem += item1.atk;
+            msWithItem += item1.ms;
+            atsWithItem += item1.ats;
+        }
+
+        if(item1 != null)
+        {
+            hpWithItem += item2.hp;
+            atkWithItem += item2.atk;
+            msWithItem += item2.ms;
+            atsWithItem += item2.ats;
+            rangeWithItem += item2.range;
+            ultChargesWithItem += item2.ultCharge;
+        }
+    }
+    
 
     private void Start()
     {
@@ -226,14 +229,14 @@ public class Unit : MonoBehaviour
     public bool TakeHit(int value)
     {
         hpWithItem -= value;
-        bool isDead  = hpWithItem <= 0;
+        isDead  = hpWithItem <= 0;
         if (isDead) Die();
         return isDead;
     }
 
     private void Die()
     {
-        unitsManager.units.Remove(unitsManager.GetUnit(gameObject.GetComponent<Unit>()));
+        unitsManager.units.Remove(this);
         Destroy(gameObject);
     }
 }
