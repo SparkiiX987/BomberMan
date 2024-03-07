@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Unit : MonoBehaviour
@@ -24,13 +25,14 @@ public class Unit : MonoBehaviour
     [SerializeField] private int ultChargesWithItem;
 
     public bool canMove = true;
-    private bool isMoving;
+    public bool isMoving;
     public UnitsManager unitsManager;
     private Unit targetUnit;
 
     public Case currentCase;
     public Case targetCase;
     public Case caseThatContainTargetEnnemy;
+
 
     // GeneralItiem item1
     // UniqueItiem item2
@@ -76,12 +78,14 @@ public class Unit : MonoBehaviour
         atsWithItem = ats;
         rangeWithItem = range;
         ultChargesWithItem = ultCharges;
+        SetUnitPositionToCurrentCase();
     }
 
     private void Update()
     {
         if (isMoving)
         {
+            print(gameObject.name + " target case : " + targetCase + " current case : " + currentCase);
             MoveToCase(targetCase);
             if (Vector3.Distance(transform.position, targetCase.transform.position) < 4.5f)
             {
@@ -92,18 +96,24 @@ public class Unit : MonoBehaviour
         }
     }
 
+    private void SetUnitPositionToCurrentCase()
+    {
+        transform.position = new Vector3(currentCase.transform.position.x, currentCase.transform.position.y, -5);
+    }
+
     public void SetTargetCase()
     {
         canMove = false;
         isMoving = true;
         currentCase = targetCase;
         targetCase = PathFinding(currentCase, caseThatContainTargetEnnemy);
-        if (targetCase == caseThatContainTargetEnnemy)
+        if (targetCase == caseThatContainTargetEnnemy || targetCase == currentCase)
         {
             isMoving = false;
             canMove = true;
         }
     }
+
 
     public int GetAttack()
     {
