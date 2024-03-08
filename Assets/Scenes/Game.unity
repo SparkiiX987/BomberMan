@@ -10420,7 +10420,7 @@ GameObject:
   - component: {fileID: 750076742}
   - component: {fileID: 750076741}
   - component: {fileID: 750076740}
-  - component: {fileID: 750076739}
+  - component: {fileID: 750076743}
   m_Layer: 5
   m_Name: UnitsSlot
   m_TagString: Untagged
@@ -10448,18 +10448,6 @@ RectTransform:
   m_AnchoredPosition: {x: 365, y: -455}
   m_SizeDelta: {x: 730, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &750076739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750076737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a077a545942f149ba5d5b6a08f3848, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &750076740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10522,6 +10510,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750076737}
   m_CullTransparentMesh: 1
+--- !u!114 &750076743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750076737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5804d29c787efd14199c21305214a2d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitInstances: []
+  unitContainerPrefab: {fileID: 693450044165847647, guid: 139b56a117f8b904a89c535397df1ce9, type: 3}
+  gridLayoutGroup: {fileID: 750076740}
+  isPlayer1: 0
+  isPlayer2: 0
+  inventoryManager: {fileID: 759293804}
+  turnGestion: {fileID: 1805736650}
 --- !u!1 &753056321
 GameObject:
   m_ObjectHideFlags: 0
@@ -25921,6 +25928,7 @@ MonoBehaviour:
   rangeWithItem: 1
   ultChargesWithItem: 0
   canMove: 1
+  isMoving: 0
   unitsManager: {fileID: 1587303064}
   currentCase: {fileID: 209783112}
   targetCase: {fileID: 1398683964}
@@ -28158,7 +28166,7 @@ GameObject:
   - component: {fileID: 1795687435}
   - component: {fileID: 1795687434}
   - component: {fileID: 1795687433}
-  - component: {fileID: 1795687432}
+  - component: {fileID: 1795687436}
   m_Layer: 5
   m_Name: UnitsSlots
   m_TagString: Untagged
@@ -28186,18 +28194,6 @@ RectTransform:
   m_AnchoredPosition: {x: -365, y: -455}
   m_SizeDelta: {x: 730, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1795687432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795687430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a077a545942f149ba5d5b6a08f3848, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1795687433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28260,6 +28256,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795687430}
   m_CullTransparentMesh: 1
+--- !u!114 &1795687436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795687430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5804d29c787efd14199c21305214a2d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitInstances: []
+  unitContainerPrefab: {fileID: 693450044165847647, guid: 139b56a117f8b904a89c535397df1ce9, type: 3}
+  gridLayoutGroup: {fileID: 1795687433}
+  isPlayer1: 0
+  isPlayer2: 0
+  inventoryManager: {fileID: 1830944111}
+  turnGestion: {fileID: 1805736650}
 --- !u!1 &1803548997
 GameObject:
   m_ObjectHideFlags: 0
@@ -33549,6 +33564,7 @@ MonoBehaviour:
   rangeWithItem: 0
   ultChargesWithItem: 0
   canMove: 1
+  isMoving: 0
   unitsManager: {fileID: 561364565}
   currentCase: {fileID: 196476855}
   targetCase: {fileID: 400221908}
