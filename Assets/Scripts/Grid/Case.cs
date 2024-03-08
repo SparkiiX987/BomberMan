@@ -12,6 +12,7 @@ public class Case : MonoBehaviour
     public List<Case> neighbours = new List<Case>();
 
     [SerializeField]private GameObject wall;
+    private GameObject walll;
 
 
     //for PathFinding
@@ -29,8 +30,8 @@ public class Case : MonoBehaviour
     {
         if (!walkable)
         {
-            GameObject newWall = GameObject.Instantiate(wall);
-            newWall.transform.position = new Vector3(transform.position.x, transform.position.y, -5);
+            walll = GameObject.Instantiate(wall);
+            walll.transform.position = new Vector3(transform.position.x, transform.position.y, -5);
         }
     }
 
@@ -44,7 +45,12 @@ public class Case : MonoBehaviour
     public bool IsWalkable() { return walkable; }
     public bool HasUnite() { return hasUnite; }
 
-
+    public void DestroyWall()
+    {
+        walkable = false;
+        // TODO play particules
+        Destroy(walll);
+    }
 
 
 
