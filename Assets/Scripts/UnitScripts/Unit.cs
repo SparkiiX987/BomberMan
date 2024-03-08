@@ -76,6 +76,7 @@ public class Unit : MonoBehaviour
         rangeWithItem = range;
         ultChargesWithItem = ultCharges;
         SetUnitPositionToCurrentCase();
+        unitsManager.AddUnitInList(this);
     }
 
     private void Update()

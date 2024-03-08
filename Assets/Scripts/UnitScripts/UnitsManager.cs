@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class UnitsManager : MonoBehaviour
 {
     public List<Unit> units = new List<Unit>();
+    public List<Unit> Instanciatedunits = new List<Unit>();
     public List <GameObject> unitsPrefab = new List<GameObject>();
     public List<GameObject> unitUI = new List<GameObject>();
     public UnitsManager ennemiesUnits;
@@ -48,9 +49,14 @@ public class UnitsManager : MonoBehaviour
         }
     }
 
+    public void AddUnitInList(Unit unit)
+    {
+        Instanciatedunits.Add(unit);
+    }
+
     public void StartGame()
     {
-        foreach(Unit unit in units)
+        foreach(Unit unit in Instanciatedunits)
         {
             unit.gameStarted = true;
         }

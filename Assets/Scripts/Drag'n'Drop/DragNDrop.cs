@@ -64,7 +64,6 @@ public class DragNDrop : MonoBehaviour
 
             if (!unitSlot.GetComponent<UnitSlot>().hasInstantiate && Physics.Raycast(ray, out hitData) && hitData.collider.TryGetComponent<Case>(out Case _case) && !_case.HasUnite())
             {
-                print(_case.gameObject);
                 result.GetComponentInParent<UnitSlot>().hasInstantiate = true;
                 unitSlot.GetComponent<UnitSlot>().unit.GetComponent<Unit>().currentCase = _case;
                 unitSlot.GetComponent<UnitSlot>().InstantiateUnit(unitSlot.GetComponent<UnitSlot>().unit.GetComponent<Unit>().currentCase);
