@@ -83,12 +83,11 @@ public class UnitsManager : MonoBehaviour
         if (isPlayer1 && unitUI.Count == 0)
         {
             Debug.Log("Player 1 wins the round!");
-            turnGestion.player2Win = true;
+            turnGestion.player1Win = true;
         }
         else if (unitUI.Count == 0)
         {
             Debug.Log("Player 2 wins the round!");
-            turnGestion.player1Win = true;
         }
     }
 }
