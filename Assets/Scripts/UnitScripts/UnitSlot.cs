@@ -31,8 +31,7 @@ public class UnitSlot : MonoBehaviour
     public void UnitRef(Unit _unit)
     {
         int unitIndex = unitsManager.units.IndexOf(_unit);
-        if (unitIndex != -1)
-            unit = unitsManager.units[unitIndex];
+        unit = unitsManager.units[unitIndex];
     }
 
     private void ChangeUnitImage(Sprite newImage)
@@ -65,12 +64,4 @@ public class UnitSlot : MonoBehaviour
             generalItemFilled = true;
         }
     }
-
-   /* public void KilledUnit()
-    {
-        if (unit.isDead)
-        {
-            Destroy(this);
-        }
-    }*/
 }

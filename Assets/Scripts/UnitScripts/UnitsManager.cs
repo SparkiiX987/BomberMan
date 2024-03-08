@@ -49,6 +49,15 @@ public class UnitsManager : MonoBehaviour
         }
     }
 
+    public Unit GetKilledUnit(Unit _unit)
+    {
+        foreach (Unit unit in units)
+        {
+            if (unit == _unit) return unit;
+        }
+        return null;
+    }
+
     public void UpdateImage()
     {
 
