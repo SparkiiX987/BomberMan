@@ -128,7 +128,6 @@ MonoBehaviour:
   canMove: 1
   isMoving: 0
   unitsManager: {fileID: 0}
-  spawnCase: {fileID: 0}
   currentCase: {fileID: 0}
   targetCase: {fileID: 0}
   caseThatContainTargetEnnemy: {fileID: 0}

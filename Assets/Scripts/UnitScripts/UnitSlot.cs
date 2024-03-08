@@ -39,12 +39,6 @@ public class UnitSlot : MonoBehaviour
         ChangeUnitImage(unit.GetComponent<Unit>().unitIcon);
     }
 
-    public void EquipItem(Item item, Slot slot)
-    {
-        ChangeItemImage(item, slot);
-        unitsManager.inventoryManager.RemoveItemByID(item);
-    }
-
     public void ChangeItemImage(Item item, Slot slot)
     {
         if (item.isUniqueItem)
@@ -58,5 +52,22 @@ public class UnitSlot : MonoBehaviour
             generalItemSlot.GetComponent<Image>().sprite= slot.currentItemSprite.sprite;
             generalItemFilled = true;
         }
+    }
+
+    public void EquipItem(Item item, Slot slot)
+    {
+        if (!hasInstantiate)
+        {
+            ChangeItemImage(item, slot);
+            unitsManager.inventoryManager.RemoveItemByID(item);
+            if (uniqueItemFilled)
+            {
+                unit.GetComponent<Unit>().item1 = item;
+            }
+            else if (generalItemFilled)
+            {
+                unit.GetComponent<Unit>().item2 = item;
+            }
+        }   
     }
 }
