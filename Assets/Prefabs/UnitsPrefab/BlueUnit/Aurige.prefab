@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7730230147801821046}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 5.67, y: 1.3, z: -5}
+  m_LocalPosition: {x: 79.12216, y: 75.1722, z: -5}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -128,9 +128,12 @@ MonoBehaviour:
   canMove: 1
   isMoving: 0
   unitsManager: {fileID: 0}
+  spawnCase: {fileID: 0}
   currentCase: {fileID: 0}
   targetCase: {fileID: 0}
   caseThatContainTargetEnnemy: {fileID: 0}
+  item1: {fileID: 0}
+  item2: {fileID: 0}
 --- !u!114 &7730230147801821040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,3 +151,4 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
+  Bombe: {fileID: 0}

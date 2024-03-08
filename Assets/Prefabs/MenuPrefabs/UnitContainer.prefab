@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 693450044165847641}
   m_Layer: 6
   m_Name: UnitContainer
-  m_TagString: UnitSlot
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,6 +99,8 @@ MonoBehaviour:
   uniqueItemFilled: 0
   generalItemSlot: {fileID: 6266203590111066551}
   generalItemFilled: 0
+  unitsManager: {fileID: 0}
+  image: {fileID: 693450044165847642}
 --- !u!1 &693450044202498342
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,7 +190,7 @@ GameObject:
   - component: {fileID: 6547281905633337989}
   m_Layer: 6
   m_Name: ItemSprite
-  m_TagString: UnitSlot
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -264,7 +266,7 @@ GameObject:
   - component: {fileID: 28679373163690011}
   m_Layer: 6
   m_Name: GeneralItemSlot
-  m_TagString: UnitSlot
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -341,7 +343,7 @@ GameObject:
   - component: {fileID: 4290532495701762888}
   m_Layer: 6
   m_Name: UniqueItemSlot
-  m_TagString: UnitSlot
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -418,7 +420,7 @@ GameObject:
   - component: {fileID: 5496002578501469016}
   m_Layer: 6
   m_Name: ItemSprite
-  m_TagString: UnitSlot
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

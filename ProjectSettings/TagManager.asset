@@ -10,6 +10,8 @@ TagManager:
   - ItemSlot
   - GeneralItemSlot
   - UniqueItemSlot
+  - Player1UnitsManager
+  - Player2UnitsManager
   layers:
   - Default
   - TransparentFX

@@ -1,3 +1,5 @@
+using Unity.VisualScripting;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,13 +13,20 @@ public class UnitSlot : MonoBehaviour
     public bool uniqueItemFilled;
     public GameObject generalItemSlot;
     public bool generalItemFilled;
-    public UnitSlotManager unitSlotManager;
+    public UnitsManager unitsManager;
+    public Image image;
 
-    private void Start()
+
+    private void Awake()
     {
-        unitSlotManager = GetComponentInParent<UnitSlotManager>();
         uniqueItemFilled = false;
         generalItemFilled = false;
+    }
+
+    public GameObject InstantiateUnit(Case _case)
+    {
+        GameObject thisUnit = Instantiate(unit);
+        return thisUnit;
     }
 
     private void ChangeUnitImage(Sprite newImage)
@@ -27,14 +36,13 @@ public class UnitSlot : MonoBehaviour
 
     public void AddUnit(GameObject newUnit)
     {
-        unit = newUnit;
         ChangeUnitImage(unit.GetComponent<Unit>().unitIcon);
     }
 
     public void EquipItem(Item item, Slot slot)
     {
         ChangeItemImage(item, slot);
-        unitSlotManager.inventoryManager.RemoveItemByID(item);
+        unitsManager.inventoryManager.RemoveItemByID(item);
     }
 
     public void ChangeItemImage(Item item, Slot slot)

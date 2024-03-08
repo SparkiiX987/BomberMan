@@ -14,7 +14,7 @@ public class DragNDrop : MonoBehaviour
     [SerializeField] private GameObject dragNDropGO;
 
     Slot parentSlot;
-    GameObject Slot;
+    GameObject unitSlot;
     Item item;
 
     void Update()
@@ -34,6 +34,7 @@ public class DragNDrop : MonoBehaviour
         {
             GameObject result = results[0].gameObject;
             UnitDragAndDrop(result);
+
             if (results.Count > 1) 
             {
                 ItemDragAndDrop(result, results[1].gameObject);
@@ -48,21 +49,25 @@ public class DragNDrop : MonoBehaviour
             result.transform.SetParent(dragNDropGO.transform);
         }
 
-        if (Input.GetMouseButtonDown(0) && result.tag == "UnitSlot" && result.GetComponentInParent<UnitSlot>().unit != null)
+        if (Input.GetMouseButtonDown(0) && result.CompareTag("UnitSlot") && result.GetComponentInParent<UnitSlot>().unit != null && !result.GetComponentInParent<UnitSlot>().hasInstantiate)
         {
             draging = true;
-            Slot = result.transform.parent.gameObject;
+            unitSlot = result.transform.parent.gameObject;
         }
 
-        else if (draging && Input.GetMouseButtonUp(0) && result.tag == "UnitSlot")
+        else if (draging && Input.GetMouseButtonUp(0) && result.CompareTag("UnitSlot"))
         {
             draging = false;
             ReturnImage(result);
-            RaycastHit hit;
-            if (!result.GetComponentInParent<UnitSlot>().hasInstantiate && Physics.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), new Vector3(0, 0, 1), out hit, 1000) && hit.collider.TryGetComponent<Case>(out Case _case) && !_case.HasUnite())
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hitData;
+
+            if (!unitSlot.GetComponent<UnitSlot>().hasInstantiate && Physics.Raycast(ray, out hitData) && hitData.collider.TryGetComponent<Case>(out Case _case) && !_case.HasUnite())
             {
+                print(_case.gameObject);
                 result.GetComponentInParent<UnitSlot>().hasInstantiate = true;
-                print(hit.collider.name);
+                unitSlot.GetComponent<UnitSlot>().unit.GetComponent<Unit>().currentCase = _case;
+                unitSlot.GetComponent<UnitSlot>().InstantiateUnit(unitSlot.GetComponent<UnitSlot>().unit.GetComponent<Unit>().currentCase);
             }
         }
     }
@@ -81,7 +86,7 @@ public class DragNDrop : MonoBehaviour
             parentSlot = result.GetComponentInParent<Slot>();
             item = inventoryManager.itemsList[inventoryManager.itemsSlots.IndexOf(parentSlot.gameObject)];
             draging = true;
-            Slot = result.transform.parent.gameObject;
+            unitSlot = result.transform.parent.gameObject;
         }
         else if (draging && Input.GetMouseButtonUp(0))
         {
@@ -104,7 +109,7 @@ public class DragNDrop : MonoBehaviour
 
     private void ReturnImage(GameObject draggedImage)
     {
-        draggedImage.transform.SetParent(Slot.transform);
-        draggedImage.transform.position = Slot.transform.position;
+        draggedImage.transform.SetParent(unitSlot.transform);
+        draggedImage.transform.position = unitSlot.transform.position;
     }
 }

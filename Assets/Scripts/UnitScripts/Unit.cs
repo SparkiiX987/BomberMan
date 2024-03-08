@@ -33,12 +33,12 @@ public class Unit : MonoBehaviour
     public Case targetCase;
     public Case caseThatContainTargetEnnemy;
 
+    public Item item1;
+    public Item item2;
 
-    // GeneralItiem item1
-    // UniqueItiem item2
-
-    /*
-        public void UpdateStats(GeneralItiem item1 = null, UniqueItiem item2 = null)
+    public void UpdateStats(Item item1, Item item2)
+    {
+        if (item1 == null && item2 == null)
         {
             hpWithItem = hp;
             atkWithItem = atk;
@@ -46,29 +46,25 @@ public class Unit : MonoBehaviour
             atsWithItem = ats;
             rangeWithItem = hp;
             ultChargesWithItem = hp;
-            if(item1 == null && item2 == null)
-            {
-                return;
-            }
-            
-            if(item1 != null)
-            {
-                hpWithItem += item1.hp;
-                atkWithItem += item1.atk;
-                msWithItem += item1.ms;
-                atsWithItem += item1.ats;
-            }
-            if(item1 != null)
-            {
-                hpWithItem += item2.hp;
-                atkWithItem += item2.atk;
-                msWithItem += item2.ms;
-                atsWithItem += item2.ats;
-                rangeWithItem += item2.range;
-                ultChargesWithItem += item2.ultCharge;
-            }
         }
-    */
+
+        if (item1 != null)
+        {
+            hpWithItem += item1.hp;
+            atkWithItem += item1.atk;
+            msWithItem += item1.ms;
+            atsWithItem += item1.ats;
+        }
+        if (item2 != null)
+        {
+            hpWithItem += item2.hp;
+            atkWithItem += item2.atk;
+            msWithItem += item2.ms;
+            atsWithItem += item2.ats;
+            //rangeWithItem += item2.range;
+            //ultChargesWithItem += item2.ultCharge;
+        }
+    }
 
     private void Start()
     {
@@ -242,7 +238,7 @@ public class Unit : MonoBehaviour
 
     private void Die()
     {
-        unitsManager.units.Remove(unitsManager.GetUnit(gameObject.GetComponent<Unit>()));
+        unitsManager.units.Remove(unitsManager.GetKilledUnit(gameObject.GetComponent<Unit>()));
         Destroy(gameObject);
     }
 }
