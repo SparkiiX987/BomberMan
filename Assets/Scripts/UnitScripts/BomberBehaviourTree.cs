@@ -16,7 +16,12 @@ public class BomberBehaviourTree : Treee
         {
             new Sequence(new List<Node>
             {
-                new CheckIfCanPlaceBomb(unit, /*unit.GetAttackSpeed()*/ 4f),
+                new TaskWaitForGameStart(unit),
+                new Wait()
+            }),
+            new Sequence(new List<Node>
+            {
+                new CheckIfCanPlaceBomb(unit, 4f),
                 new TaskPlaceBombe(bomb, unit)
             }),
             new Sequence(new List<Node>

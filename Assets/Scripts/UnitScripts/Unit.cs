@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Unit : MonoBehaviour
@@ -35,6 +34,8 @@ public class Unit : MonoBehaviour
 
     public Item item1;
     public Item item2;
+
+    public bool gameStarted;
 
     public void UpdateStats(Item item1, Item item2)
     {
@@ -81,6 +82,10 @@ public class Unit : MonoBehaviour
     {
         if (isMoving)
         {
+            if (targetCase == null)
+            {
+                targetCase = currentCase.up != null ? currentCase.up : currentCase.down;
+            }
             MoveToCase(targetCase);
             if (Vector3.Distance(transform.position, targetCase.transform.position) < 4.5f)
             {

@@ -48,6 +48,14 @@ public class UnitsManager : MonoBehaviour
         }
     }
 
+    public void StartGame()
+    {
+        foreach(Unit unit in units)
+        {
+            unit.gameStarted = true;
+        }
+    }
+
     public Unit GetKilledUnit(Unit _unit)
     {
         foreach (Unit unit in units)

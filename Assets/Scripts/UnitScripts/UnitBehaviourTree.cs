@@ -16,6 +16,11 @@ public class UnitBehaviourTree : Treee
         {
             new Sequence(new List<Node>
             {
+                new TaskWaitForGameStart(unit),
+                new Wait()
+            }),
+            new Sequence(new List<Node>
+            {
                 new CheckForEnemyInAttackRange(unit, enemyTag, unit.rangeWithItem, enemyLayer),
                 new TaskAttackEnnemy(unit.GetAttackSpeed(), unit)
             }),
