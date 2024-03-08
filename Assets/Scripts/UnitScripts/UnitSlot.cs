@@ -66,11 +66,11 @@ public class UnitSlot : MonoBehaviour
         }
     }
 
-    public void KilledUnit()
+   /* public void KilledUnit()
     {
         if (unit.isDead)
         {
             Destroy(this);
         }
-    }
+    }*/
 }
