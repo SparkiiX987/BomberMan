@@ -13,7 +13,8 @@ public class Wait : Node
 
     public override NodeState Evaluate()
     {
-        state = NodeState.FAILURE;
+        Debug.Log("wait");
+        state = NodeState.SUCCESS;
         return state;
     }
 }

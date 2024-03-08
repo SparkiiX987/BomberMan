@@ -25,7 +25,7 @@ public class Case : MonoBehaviour
     }
 
 
-    private void Start()
+    private void Awake()
     {
         if (!walkable)
         {

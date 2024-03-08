@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using BehaviourTree;
+using Unity.VisualScripting.FullSerializer;
 
 public class CheckForRemainingEnemies : Node
 {
@@ -35,11 +36,19 @@ public class CheckForRemainingEnemies : Node
                 if (collider.TryGetComponent<Unit>(out Unit _unit) && unitsManager.ennemiesUnits.units.Contains(_unit))
                 {
                     parent.parent.SetData("target", _unit);
+                    Debug.Log(GetData("target"));
                     // animator.SetBool("Walking", true);
                     state = NodeState.SUCCESS;
                     return state;
                 }
             }
+
+            state = NodeState.FAILURE;
+            return state;
+        }
+        Unit enemy = (Unit)target;
+        if ((unit.targetCase == unit.caseThatContainTargetEnnemy) || (enemy.currentCase == unit.targetCase))
+        {
             state = NodeState.FAILURE;
             return state;
         }

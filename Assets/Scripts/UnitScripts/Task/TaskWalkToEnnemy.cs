@@ -15,9 +15,12 @@ public class TaskWalkToEnnemy : Node
     {
         Unit enemy = (Unit)GetData("target");
         unit.caseThatContainTargetEnnemy = enemy.currentCase;
-
         if (unit.canMove)
         {
+            if(unit.targetCase == null)
+            {
+                unit.targetCase = unit.currentCase.up != null ? unit.currentCase.up : unit.currentCase.down;
+            }
             unit.SetTargetCase();
         }
 

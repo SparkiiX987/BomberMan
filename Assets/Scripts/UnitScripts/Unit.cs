@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Unit : MonoBehaviour
@@ -24,8 +25,7 @@ public class Unit : MonoBehaviour
     [SerializeField] private int ultChargesWithItem;
 
     public bool canMove = true;
-    public bool isDead;
-    private bool isMoving;
+    public bool isMoving;
     public UnitsManager unitsManager;
     private Unit targetUnit;
 
@@ -33,43 +33,42 @@ public class Unit : MonoBehaviour
     public Case targetCase;
     public Case caseThatContainTargetEnnemy;
 
-    GeneralItems item1;
-    UniqueItems item2;
 
-    
-    public void UpdateStats(GeneralItems item1 = null, UniqueItems item2 = null)
-    {
-        hpWithItem = hp;
-        atkWithItem = atk;
-        msWithItem = ms;
-        atsWithItem = ats;
-        rangeWithItem = hp;
-        ultChargesWithItem = hp;
+    // GeneralItiem item1
+    // UniqueItiem item2
 
-        if(item1 == null && item2 == null)
+    /*
+        public void UpdateStats(GeneralItiem item1 = null, UniqueItiem item2 = null)
         {
-            return;
-        }
+            hpWithItem = hp;
+            atkWithItem = atk;
+            msWithItem = ms;
+            atsWithItem = ats;
+            rangeWithItem = hp;
+            ultChargesWithItem = hp;
+            if(item1 == null && item2 == null)
+            {
+                return;
+            }
             
-        if(item1 != null)
-        {
-            hpWithItem += item1.hp;
-            atkWithItem += item1.atk;
-            msWithItem += item1.ms;
-            atsWithItem += item1.ats;
+            if(item1 != null)
+            {
+                hpWithItem += item1.hp;
+                atkWithItem += item1.atk;
+                msWithItem += item1.ms;
+                atsWithItem += item1.ats;
+            }
+            if(item1 != null)
+            {
+                hpWithItem += item2.hp;
+                atkWithItem += item2.atk;
+                msWithItem += item2.ms;
+                atsWithItem += item2.ats;
+                rangeWithItem += item2.range;
+                ultChargesWithItem += item2.ultCharge;
+            }
         }
-
-        if(item1 != null)
-        {
-            hpWithItem += item2.hp;
-            atkWithItem += item2.atk;
-            msWithItem += item2.ms;
-            atsWithItem += item2.ats;
-            rangeWithItem += item2.range;
-            ultChargesWithItem += item2.ultCharge;
-        }
-    }
-    
+    */
 
     private void Start()
     {
@@ -79,12 +78,14 @@ public class Unit : MonoBehaviour
         atsWithItem = ats;
         rangeWithItem = range;
         ultChargesWithItem = ultCharges;
+        SetUnitPositionToCurrentCase();
     }
 
     private void Update()
     {
         if (isMoving)
         {
+            print(gameObject.name + " target case : " + targetCase + " current case : " + currentCase);
             MoveToCase(targetCase);
             if (Vector3.Distance(transform.position, targetCase.transform.position) < 4.5f)
             {
@@ -95,18 +96,24 @@ public class Unit : MonoBehaviour
         }
     }
 
+    private void SetUnitPositionToCurrentCase()
+    {
+        transform.position = new Vector3(currentCase.transform.position.x, currentCase.transform.position.y, -5);
+    }
+
     public void SetTargetCase()
     {
         canMove = false;
         isMoving = true;
         currentCase = targetCase;
         targetCase = PathFinding(currentCase, caseThatContainTargetEnnemy);
-        if (targetCase == caseThatContainTargetEnnemy)
+        if (targetCase == caseThatContainTargetEnnemy || targetCase == currentCase)
         {
             isMoving = false;
             canMove = true;
         }
     }
+
 
     public int GetAttack()
     {
@@ -229,14 +236,14 @@ public class Unit : MonoBehaviour
     public bool TakeHit(int value)
     {
         hpWithItem -= value;
-        isDead  = hpWithItem <= 0;
+        bool isDead  = hpWithItem <= 0;
         if (isDead) Die();
         return isDead;
     }
 
     private void Die()
     {
-        unitsManager.units.Remove(this);
+        unitsManager.units.Remove(unitsManager.GetUnit(gameObject.GetComponent<Unit>()));
         Destroy(gameObject);
     }
 }
