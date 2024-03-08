@@ -17,7 +17,7 @@ public class TurnGestion : MonoBehaviour
     public bool isPlayer2Turn;
     public bool player1Win;
     public bool gameStarted;
-    private float timer = 30;
+    private float timer = 20;
 
     public Color[] indicatorColors;
 
@@ -41,15 +41,18 @@ public class TurnGestion : MonoBehaviour
 
     public void WhichPlayerTurn()
     {
-        if (isPlayer1Turn)
+        if (!gameStarted)
         {
-            player1UI.SetActive(true);
-            player2UI.SetActive(false);
-        }
-        else if (isPlayer2Turn)
-        {
-            player1UI.SetActive(false);
-            player2UI.SetActive(true);
+            if (isPlayer1Turn)
+            {
+                player1UI.SetActive(true);
+                player2UI.SetActive(false);
+            }
+            else if (isPlayer2Turn)
+            {
+                player1UI.SetActive(false);
+                player2UI.SetActive(true);
+            }
         }
     }
 
@@ -70,24 +73,36 @@ public class TurnGestion : MonoBehaviour
         }
     }
 
-    public void StartGame() 
-    {
-        gameStarted = true;
-    }
-
     public void EndTurn()
     {
         if (isPlayer1Turn)
         {
             isPlayer1Turn = false;
             isPlayer2Turn = true;
-            timer = 30; 
+            timer = 20; 
         }
         else if (isPlayer2Turn)
         {
-            isPlayer1Turn = true;
+            timer = 20;
             isPlayer2Turn = false;
-            timer = 30;
+            player2UI.SetActive(false );
+            gameStarted = true;
+        }
+    }
+
+    public void EndGame()
+    {
+        gameStarted = false;
+        isPlayer1Turn = true;
+        if (player1Win)
+        {
+
+            print("Player 1 win");
+        }
+        else
+        {
+
+            print("Player 2 Win");
         }
     }
 }
