@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 93fb399a48992d242a485e43e639a35e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -127,13 +127,14 @@ MonoBehaviour:
   ultChargesWithItem: 0
   canMove: 1
   isMoving: 0
+  unitIsDead: 0
   unitsManager: {fileID: 0}
-  spawnCase: {fileID: 0}
   currentCase: {fileID: 0}
   targetCase: {fileID: 0}
   caseThatContainTargetEnnemy: {fileID: 0}
   item1: {fileID: 0}
   item2: {fileID: 0}
+  gameStarted: 0
 --- !u!114 &1004329202023613558
 MonoBehaviour:
   m_ObjectHideFlags: 0

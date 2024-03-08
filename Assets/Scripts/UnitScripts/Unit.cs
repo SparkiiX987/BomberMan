@@ -35,6 +35,7 @@ public class Unit : MonoBehaviour
 
     public Item item1;
     public Item item2;
+    public List<GameObject> bombs;
 
     public bool gameStarted;
 
@@ -247,6 +248,14 @@ public class Unit : MonoBehaviour
     private void Die()
     {
         unitsManager.Instanciatedunits.Remove(unitsManager.GetKilledUnit(gameObject.GetComponent<Unit>()));
-        DestroyImmediate(gameObject, transform);
+        if (bombs.Count > 0)
+        {
+            for (int i = 0; i < bombs.Count; i++)
+            {
+                bombs[i].GetComponent<Bombe>().Explosion();
+            }
+        }
+        
+        DestroyImmediate(gameObject, true);
     }
 }

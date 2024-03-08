@@ -19423,9 +19423,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 193750685}
-        m_TargetAssemblyTypeName: UnitsManager, Assembly-CSharp
-        m_MethodName: StartGame
+      - m_Target: {fileID: 1805736650}
+        m_TargetAssemblyTypeName: TurnGestion, Assembly-CSharp
+        m_MethodName: EndTurn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19447,10 +19447,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1211118110}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 193750685}
+        m_TargetAssemblyTypeName: UnitsManager, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -23328,7 +23328,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -28944,6 +28944,8 @@ MonoBehaviour:
   isPlayer2Turn: 0
   player1Win: 0
   gameStarted: 0
+  player1Units: {fileID: 551563304}
+  player2Units: {fileID: 193750685}
   indicatorColors:
   - {r: 0, g: 0.09411765, b: 1, a: 1}
   - {r: 1, g: 0, b: 0, a: 1}

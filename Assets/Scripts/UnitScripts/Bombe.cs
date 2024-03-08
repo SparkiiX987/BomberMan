@@ -1,10 +1,9 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Bombe : MonoBehaviour
 {
-    public Unit unit;
+    public UnitsManager units;
     public Case currentCase;
     private float remainingTime = 5;
 
@@ -25,7 +24,7 @@ public class Bombe : MonoBehaviour
 
     public void Explosion()
     {
-        List<Unit> enemies = unit.unitsManager.ennemiesUnits.units;
+        List<Unit> enemies = units.ennemiesUnits.units;
 
 
         foreach (Case _case in currentCase.neighbours)

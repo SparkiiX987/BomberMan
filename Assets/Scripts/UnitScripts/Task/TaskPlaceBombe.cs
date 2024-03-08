@@ -16,8 +16,9 @@ public class TaskPlaceBombe : Node
     public override NodeState Evaluate()
     {
         GameObject newBomb = GameObject.Instantiate(bomb);
+        unit.bombs.Add(newBomb);
         newBomb.GetComponent<Bombe>().currentCase = unit.currentCase;
-        newBomb.GetComponent<Bombe>().unit = unit;
+        newBomb.GetComponent<Bombe>().units = unit.unitsManager;
         newBomb.GetComponent<Bombe>().SetPositionToCase();
 
         state = NodeState.RUNNING;

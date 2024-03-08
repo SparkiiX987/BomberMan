@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -17,6 +16,8 @@ public class TurnGestion : MonoBehaviour
     public bool isPlayer2Turn;
     public bool player1Win;
     public bool gameStarted;
+    public UnitsManager player1Units;
+    public UnitsManager player2Units;
     private float timer = 20;
 
     public Color[] indicatorColors;
@@ -37,6 +38,28 @@ public class TurnGestion : MonoBehaviour
     {
         WhichPlayerTurn();
         UpdateHUD();
+        if(player1Units.units.Count == 0 || NoMoreUnits(player1Units))
+        {
+            player1Win = true;
+            EndGame();
+        }
+        else if(player2Units.units.Count == 0 || NoMoreUnits(player2Units))
+        {
+            player1Win = false;
+            EndGame();
+        }
+    }
+
+    private bool NoMoreUnits(UnitsManager units)
+    {
+        for(int i = 0; i < units.units.Count; i++)
+        {
+            if (units.units[i] != null)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
     public void WhichPlayerTurn()

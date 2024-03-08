@@ -1,11 +1,7 @@
-using OpenCover.Framework.Model;
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
-using UnityEngine.EventSystems;
 
 public class Slot : MonoBehaviour //IPointerEnterHandler, IPointerExitHandler
 {
