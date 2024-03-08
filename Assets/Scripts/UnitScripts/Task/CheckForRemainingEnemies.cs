@@ -36,7 +36,6 @@ public class CheckForRemainingEnemies : Node
                 if (collider.TryGetComponent<Unit>(out Unit _unit) && unitsManager.ennemiesUnits.units.Contains(_unit))
                 {
                     parent.parent.SetData("target", _unit);
-                    Debug.Log(GetData("target"));
                     // animator.SetBool("Walking", true);
                     state = NodeState.SUCCESS;
                     return state;

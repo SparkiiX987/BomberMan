@@ -85,7 +85,6 @@ public class Unit : MonoBehaviour
     {
         if (isMoving)
         {
-            print(gameObject.name + " target case : " + targetCase + " current case : " + currentCase);
             MoveToCase(targetCase);
             if (Vector3.Distance(transform.position, targetCase.transform.position) < 4.5f)
             {
