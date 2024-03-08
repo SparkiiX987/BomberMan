@@ -49,7 +49,7 @@ public class DragNDrop : MonoBehaviour
             result.transform.SetParent(dragNDropGO.transform);
         }
 
-        if (Input.GetMouseButtonDown(0) && result.CompareTag("UnitSlot") && result.GetComponentInParent<UnitSlot>().unit != null)
+        if (Input.GetMouseButtonDown(0) && result.CompareTag("UnitSlot") && result.GetComponentInParent<UnitSlot>().unit != null && !result.GetComponentInParent<UnitSlot>().hasInstantiate)
         {
             draging = true;
             unitSlot = result.transform.parent.gameObject;
@@ -62,12 +62,12 @@ public class DragNDrop : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hitData;
 
-            if (Physics.Raycast(ray, out hitData) && hitData.collider.TryGetComponent<Case>(out Case _case) && !_case.HasUnite())
+            if (!unitSlot.GetComponent<UnitSlot>().hasInstantiate && Physics.Raycast(ray, out hitData) && hitData.collider.TryGetComponent<Case>(out Case _case) && !_case.HasUnite())
             {
+                print(_case.gameObject);
                 result.GetComponentInParent<UnitSlot>().hasInstantiate = true;
-                result.GetComponentInParent<UnitSlot>().UnitRef(unitSlot.GetComponentInParent<UnitSlot>().unit);
-                unitSlot.GetComponent<UnitSlot>().unit.SetUnitOnMap(_case);
-                Debug.Log(unitSlot.GetComponentInParent<UnitSlot>().unit);
+                unitSlot.GetComponent<UnitSlot>().unit.GetComponent<Unit>().currentCase = _case;
+                unitSlot.GetComponent<UnitSlot>().InstantiateUnit(unitSlot.GetComponent<UnitSlot>().unit.GetComponent<Unit>().currentCase);
             }
         }
     }

@@ -74,6 +74,7 @@ public class Unit : MonoBehaviour
         atsWithItem = ats;
         rangeWithItem = range;
         ultChargesWithItem = ultCharges;
+        SetUnitPositionToCurrentCase();
     }
 
     private void Update()
@@ -93,12 +94,6 @@ public class Unit : MonoBehaviour
     private void SetUnitPositionToCurrentCase()
     {
         transform.position = new Vector3(currentCase.transform.position.x, currentCase.transform.position.y, -5);
-    }
-
-    public void SetUnitOnMap(Case _case)
-    {
-        currentCase = _case;
-        SetUnitPositionToCurrentCase();
     }
 
     public void SetTargetCase()

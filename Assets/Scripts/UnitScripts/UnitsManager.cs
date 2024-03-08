@@ -5,13 +5,13 @@ using UnityEngine.UI;
 public class UnitsManager : MonoBehaviour
 {
     public List<Unit> units = new List<Unit>();
+    public List <GameObject> unitsPrefab = new List<GameObject>();
     public List<GameObject> unitUI = new List<GameObject>();
     public UnitsManager ennemiesUnits;
     private UnitSlot unitSlot;
     public GameObject unitContainerPrefab;
     [SerializeField] private GridLayoutGroup gridLayoutGroup;
     public bool isPlayer1;
-    public GameObject unitSpawn;
 
     public InventoryManager inventoryManager;
     public TurnGestion turnGestion;
@@ -28,9 +28,8 @@ public class UnitsManager : MonoBehaviour
             units[i].unitsManager = this;
             GameObject unitInstance = Instantiate(unitContainerPrefab, gridLayoutGroup.transform);
             unitInstance.GetComponent<UnitSlot>().unitsManager = this;
-            unitInstance.GetComponent<UnitSlot>().unit = units[i];
+            unitInstance.GetComponent<UnitSlot>().unit = unitsPrefab[i];
             unitUI.Add(unitInstance);
-            Instantiate(units[i], unitSpawn.transform);
         }
     }
 
@@ -39,11 +38,11 @@ public class UnitsManager : MonoBehaviour
         int unitIndex = units.IndexOf(_unit);
         int uSlotIndex = unitUI.IndexOf(unitContainerPrefab);
 
-        foreach (Unit unit in units)
+        foreach (GameObject unit in unitsPrefab)
         {
             if (uSlotIndex == unitIndex)
             {
-                unitSlot.image.sprite = unit.unitIcon;
+                unitSlot.image.sprite = unit.GetComponent<Unit>().unitIcon;
                 unitSlot.unit = unit;
             }
         }
@@ -58,6 +57,8 @@ public class UnitsManager : MonoBehaviour
         return null;
     }
 
+
+
     public void UpdateImage()
     {
 
@@ -70,7 +71,7 @@ public class UnitsManager : MonoBehaviour
             Debug.Log("Player 1 wins the round!");
             turnGestion.player2Win = true;
         }
-        else if (!isPlayer1 && unitUI.Count == 0)
+        else if (unitUI.Count == 0)
         {
             Debug.Log("Player 2 wins the round!");
             turnGestion.player1Win = true;

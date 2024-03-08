@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class UnitSlot : MonoBehaviour
 {
     public GameObject unitImage;
-    public Unit unit;
+    public GameObject unit;
     public bool hasInstantiate;
 
     public GameObject uniqueItemSlot;
@@ -22,16 +22,11 @@ public class UnitSlot : MonoBehaviour
         uniqueItemFilled = false;
         generalItemFilled = false;
     }
-    private void Start()
-    {
-        if (unit != null)
-            UnitRef(unit);
-    }
 
-    public void UnitRef(Unit _unit)
+    public GameObject InstantiateUnit(Case _case)
     {
-        int unitIndex = unitsManager.units.IndexOf(_unit);
-        unit = unitsManager.units[unitIndex];
+        GameObject thisUnit = Instantiate(unit);
+        return thisUnit;
     }
 
     private void ChangeUnitImage(Sprite newImage)
