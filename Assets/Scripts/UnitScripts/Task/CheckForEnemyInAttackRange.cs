@@ -27,6 +27,12 @@ public class CheckForEnemyInAttackRange : Node
             return state;
         }
         Unit targetUnit = (Unit)target;
+        if (targetUnit.unitIsDead || targetUnit == null)
+        {
+            ClearData("target");
+            state = NodeState.FAILURE;
+            return state;
+        }
         if (Vector3.Distance(unit.transform.position, targetUnit.transform.position) <= range)
         {
             state = NodeState.SUCCESS;

@@ -25,6 +25,7 @@ public class Unit : MonoBehaviour
 
     public bool canMove = true;
     public bool isMoving;
+    public bool unitIsDead;
     public UnitsManager unitsManager;
     private Unit targetUnit;
 
@@ -238,13 +239,14 @@ public class Unit : MonoBehaviour
     {
         hpWithItem -= value;
         bool isDead  = hpWithItem <= 0;
+        unitIsDead = isDead; 
         if (isDead) Die();
         return isDead;
     }
 
     private void Die()
     {
-        unitsManager.units.Remove(unitsManager.GetKilledUnit(gameObject.GetComponent<Unit>()));
-        Destroy(gameObject);
+        unitsManager.Instanciatedunits.Remove(unitsManager.GetKilledUnit(gameObject.GetComponent<Unit>()));
+        DestroyImmediate(gameObject, transform);
     }
 }

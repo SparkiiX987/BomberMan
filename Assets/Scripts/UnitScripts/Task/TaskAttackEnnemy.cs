@@ -23,7 +23,7 @@ public class TaskAttackEnnemy : Node
         if(attackCounter >= attackTime)
         {
             bool enemyIsDead = target.TakeHit(self.GetAttack());
-            if(enemyIsDead)
+            if(enemyIsDead || target.unitIsDead)
             {
                 ClearData("target");
                 // animator.SetBool("Attacking", false);
